@@ -1,0 +1,14 @@
+{
+ "lab_id": 1856,
+ "formula": "SrCaCdP2",
+ "name": "Cadmophosphide",
+ "mace_e_hull": null,
+ "finished": 1793283976.496874,
+ "vs": {
+  "Ca2CdP2": 0.5,
+  "Sr2CdP2": 0.5
+ },
+ "e_hull_dft": -0.024,
+ "status": "pass",
+ "note": "re-checked vs beta-Ca2CdP2 (CCDC 2054635): beta is +7.6 meV/atom vs alpha; hull uses the lower form"
+}

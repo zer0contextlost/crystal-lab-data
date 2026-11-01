@@ -1,0 +1,6 @@
+{
+ "lab_id": 3896, "formula": "Rb2B4Pt3", "name": null, "mace_e_hull": null,
+ "finished": 1793213489, "vs": {"RbBPt": 0.6667, "BPt2": 0.1667, "B": 0.1667},
+ "e_hull_dft": 0.2063, "status": "fail",
+ "note": "stopped by hand at vc-relax step 48 (forces 0.006 Ry/bohr, energy falling <0.0001 eV/atom/step); coarse-k energy, no final scf; 8x the 0.025 pass margin"
+}

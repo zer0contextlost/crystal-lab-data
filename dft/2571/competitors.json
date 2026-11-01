@@ -1,0 +1,19 @@
+{
+ "formula": "BaCdGePd2",
+ "nsites": 10,
+ "n_entries": 1281,
+ "decomposition": [
+  {
+   "id": "agm002152596",
+   "formula": "BaGePd",
+   "frac": 0.6,
+   "nsites": 12
+  },
+  {
+   "id": "agm002126446",
+   "formula": "CdPd",
+   "frac": 0.4,
+   "nsites": 2
+  }
+ ]
+}

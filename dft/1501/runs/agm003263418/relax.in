@@ -1,0 +1,61 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   nstep            = 150
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/1501/runs/agm003263418/tmp'
+   prefix           = 'relax'
+   etot_conv_thr    = 1e-05
+   forc_conv_thr    = 0.001
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 45.0
+   ecutrho          = 360.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   nspin            = 2
+   starting_magnetization(1) = 2.0
+   starting_magnetization(2) = 0.0
+   ntyp             = 2
+   nat              = 8
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-07
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Ni  58.6934 ni_pbe_v1.4.uspp.F.UPF
+Ge  72.63 ge_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+5 3 3  0 0 0
+
+CELL_PARAMETERS angstrom
+3.41606205000000 0.00000000000000 0.00000000000000
+0.00000000000000 5.46176131000000 0.00000000000000
+0.00000000000000 0.00000000000000 5.87313529000000
+
+ATOMIC_POSITIONS angstrom
+Ni  0.8540155125 2.7579889603 4.0479359850  
+Ni  2.5620465375 2.7037723497 1.8251993050  
+Ni  0.8540155125 0.0271083053 4.7617669500  
+Ni  2.5620465375 5.4346530047 1.1113683400  
+Ge  0.8540155125 3.7666989903 0.4939908188  
+Ge  2.5620465375 1.6950623197 5.3791444712  
+Ge  0.8540155125 1.0358183353 2.4425768262  
+Ge  2.5620465375 4.4259429747 3.4305584638  
+

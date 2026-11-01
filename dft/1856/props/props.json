@@ -1,0 +1,76 @@
+{
+ "formula": "SrCaCdP2",
+ "e_hull_dft": -0.024,
+ "electronic": {
+  "natoms": 20,
+  "magnetic": null,
+  "magnetism_note": "not tested (no Fe/Co/Ni/Mn/Cr; treated as non-magnetic)",
+  "fermi_eV": 8.161227617513449,
+  "metal": false,
+  "pbe_gap_eV": 1.122,
+  "pbe_direct_gap_eV": 1.122,
+  "dos_at_EF_states_eV_atom": 0.0,
+  "hours": 8.48
+ },
+ "elastic": {
+  "C_GPa": [
+   [
+    118.9,
+    32.6,
+    22.7,
+    -0.0,
+    0.0,
+    0.0
+   ],
+   [
+    32.6,
+    93.5,
+    28.1,
+    -0.0,
+    0.0,
+    0.0
+   ],
+   [
+    22.7,
+    28.1,
+    59.5,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    -0.0,
+    -0.0,
+    0.0,
+    33.8,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    36.2,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    44.7
+   ]
+  ],
+  "born_stable": true,
+  "bulk_modulus_GPa": 46.7,
+  "shear_modulus_GPa": 34.3,
+  "youngs_modulus_GPa": 82.8,
+  "poisson": 0.205,
+  "pugh_B_over_G": 1.36,
+  "ductile": false,
+  "vickers_hardness_GPa_chen": 8.1,
+  "hours": 19.82
+ }
+}

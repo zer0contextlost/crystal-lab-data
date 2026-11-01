@@ -1,0 +1,24 @@
+{
+ "built": "2026-11-01",
+ "structures": 5402,
+ "catalogued": 1593,
+ "ml_verdicts": {
+  "borderline": 722,
+  "falls apart": 163,
+  "plausible": 1213,
+  "rock solid": 1325,
+  "unstable": 1979
+ },
+ "novelty": {
+  "skipped": 2864,
+  "known": 940,
+  "new composition": 967,
+  "new structure": 626,
+  "rediscovered": 5
+ },
+ "ml_hull_done": 968,
+ "ml_hull_at_or_below_0": 0,
+ "dft_jobs": 8,
+ "dft_pass": 1,
+ "dft_fail": 2
+}

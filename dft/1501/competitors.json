@@ -1,0 +1,31 @@
+{
+ "formula": "Mg3Ni3GeP2",
+ "nsites": 9,
+ "n_entries": 1177,
+ "decomposition": [
+  {
+   "id": "agm003272104",
+   "formula": "Mg3P2",
+   "frac": 0.2941,
+   "nsites": 40
+  },
+  {
+   "id": "agm016490948",
+   "formula": "Mg4Ni7Ge6",
+   "frac": 0.2222,
+   "nsites": 17
+  },
+  {
+   "id": "agm003263418",
+   "formula": "NiGe",
+   "frac": 0.0654,
+   "nsites": 8
+  },
+  {
+   "id": "agm003220761",
+   "formula": "MgNi2P",
+   "frac": 0.4183,
+   "nsites": 16
+  }
+ ]
+}

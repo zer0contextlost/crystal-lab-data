@@ -1,0 +1,19 @@
+{
+ "formula": "SrCaCdP2",
+ "nsites": 20,
+ "n_entries": 2358,
+ "decomposition": [
+  {
+   "id": "agm003206316",
+   "formula": "Ca2CdP2",
+   "frac": 0.5,
+   "nsites": 10
+  },
+  {
+   "id": "agm002177972",
+   "formula": "Sr2CdP2",
+   "frac": 0.5,
+   "nsites": 10
+  }
+ ]
+}

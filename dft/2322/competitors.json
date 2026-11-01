@@ -1,0 +1,18 @@
+{
+ "formula": "Rb2CdCuF6",
+ "nsites": 10,
+ "decomposition": [
+  {
+   "id": "agm002147840",
+   "formula": "RbCdF3",
+   "frac": 0.5,
+   "nsites": 20
+  },
+  {
+   "id": "agm070238453",
+   "formula": "RbCuF3",
+   "frac": 0.5,
+   "nsites": 10
+  }
+ ]
+}

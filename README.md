@@ -1,0 +1,54 @@
+# Crystal Lab open data
+
+Crystal structures proposed by an AI model, screened with a machine-learned potential, and the most promising
+ones re-checked with density functional theory (DFT). Everything is published, including the failures.
+
+AI generators now propose crystals much faster than anyone checks them with physics. This dataset is a small,
+open record of what happens when you do check: most candidates that look stable to a machine-learned model turn
+out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
+
+Built 2026-11-01. Rebuilt nightly while the pipeline runs.
+
+## What's in it
+
+| | count |
+|---|---|
+| Structures generated | 5402 |
+| Kept as "discoveries" (stable by ML and not found in reference databases at the time) | 1593 |
+| ML hull check finished | 968 |
+| ML hull check at or below 0 eV/atom | 0 |
+| DFT jobs (passes / fails / still running or queued) | 8 (1 / 2 / 5) |
+
+ML verdicts: unstable 1979, rock solid 1325, plausible 1213, borderline 722, falls apart 163.
+Novelty at generation time: skipped 2864, new composition 967, known 940, new structure 626, rediscovered 5.
+
+### Files
+- `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, ML energies and verdict,
+  novelty check (with the matching database IDs when it was already known), ML hull result, DFT summary.
+- `structures.csv`: the same without CIFs, for spreadsheets.
+- `dft_results.csv`: one row per DFT job.
+- `dft/<id>/`: every DFT job: `candidate.cif`, competitor structures (`comp/`), Quantum ESPRESSO inputs and
+  outputs for the candidate and each competitor (`runs/`), `result.json`, and for passes the properties
+  (`props/`: band gap, DOS, elastic tensor) and phonon runs (`phonon/`). `.out` files are gzipped.
+- `stats.json`: the counts above. `build.log`: files left out of this build and why.
+- `METHODS.md`: how every number was produced, and what it does and doesn't mean.
+
+## How to read the results
+- An ML "rock solid" verdict means a low formation energy with MACE. It says nothing about competing phases.
+- The ML hull compares against Alexandria near-hull phases computed with the same ML model. `pending` rows carry
+  only `previous_e_hull_eV_atom`, a superseded value from before a stricter re-check; don't use it as a result.
+- A DFT **pass** means: with PBE, the candidate is at most 0.025 eV/atom above the convex hull built from its
+  Alexandria competitors. It does **not** mean the material has been made, or that it can be made. PBE errors
+  of a few tens of meV/atom are normal, and the hull only contains the competitors we checked.
+- Phonons are a screen on a small supercell (shortest side ~7 Å) for imaginary modes, not a full study.
+
+## Licence and credit
+Our data (generated structures, ML and DFT results): **CC BY 4.0**, credit "Crystal Lab open data, zer0contextlost".
+Competitor structures come from the **Alexandria** database (Schmidt et al., CC BY 4.0); Alexandria and
+Materials Project IDs are given wherever a structure matched them. Pseudopotentials are SSSP 1.1.2 efficiency
+(Prandini et al.) and are not redistributed here. See `ATTRIBUTION.md`.
+
+Structures from licensed databases (e.g. CCDC/ICSD) used in any check are never included; such checks are cited
+by deposition number only.
+
+Corrections and questions: open an issue.

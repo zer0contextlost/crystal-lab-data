@@ -1,0 +1,54 @@
+&CONTROL
+   calculation      = 'scf'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/3896/runs/agm079120958/tmp'
+   prefix           = 'scf'
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 35.0
+   ecutrho          = 280.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   ntyp             = 3
+   nat              = 6
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-08
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Rb 85.4678 Rb_ONCV_PBE-1.0.oncvpsp.upf
+B 10.81 b_pbe_v1.4.uspp.F.UPF
+Pt 195.084 pt_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+7 7 3  0 0 0
+
+CELL_PARAMETERS angstrom
+4.23853160200000 -0.00967839800000 0.00043298900000
+0.98404568900000 4.10627998700000 -0.00087989800000
+-4.14142160000000 0.01991479400000 10.59449859000000
+
+ATOMIC_POSITIONS angstrom
+Rb 1.8895188105 3.1133321533 7.5331833813  
+Rb -0.8083631193 1.0031842295 3.0608683005  
+B 1.5414835957 3.4024028360 0.0739603295  
+B -0.4603279044 0.7141135469 10.5200913523  
+Pt -0.4771076120 2.8954452090 10.5955554523  
+Pt 1.5582633032 1.2210711738 -0.0015037705  
+

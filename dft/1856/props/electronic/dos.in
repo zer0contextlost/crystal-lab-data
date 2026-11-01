@@ -1,0 +1,6 @@
+&dos
+ prefix='p'
+ outdir='/opt/dft/jobs/1856/props/electronic/tmp'
+ fildos='/opt/dft/jobs/1856/props/electronic/dos.dat'
+ DeltaE=0.01
+/

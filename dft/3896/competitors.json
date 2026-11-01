@@ -1,0 +1,25 @@
+{
+ "formula": "Rb2B4Pt3",
+ "nsites": 18,
+ "n_entries": 492,
+ "decomposition": [
+  {
+   "id": "agm079120958",
+   "formula": "RbBPt",
+   "frac": 0.6667,
+   "nsites": 6
+  },
+  {
+   "id": "agm002137999",
+   "formula": "BPt2",
+   "frac": 0.1667,
+   "nsites": 6
+  },
+  {
+   "id": "agm005250256",
+   "formula": "B",
+   "frac": 0.1667,
+   "nsites": 12
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "formula": "NaLaTe2",
+ "nsites": 8,
+ "decomposition": [
+  {
+   "id": "agm002166439",
+   "formula": "NaLaTe2",
+   "frac": 1.0,
+   "nsites": 4
+  }
+ ]
+}

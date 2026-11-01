@@ -1,0 +1,9 @@
+lab_id,formula,dft_status,e_hull_dft_eV_atom,decomposes_to,pbe_gap_eV,metal,phonon_stable,finished,note
+511,TbPr4Te5,queued,,,,,,,
+974,NaLaTe2,queued,,,,,,,
+1501,Mg3Ni3GeP2,fail,0.1004,"{""Mg3P2"": 0.2941, ""Mg4Ni7Ge6"": 0.2222, ""NiGe"": 0.0654, ""MgNi2P"": 0.4183}",,,,2026-10-29T07:29:09Z,
+1856,SrCaCdP2,pass,-0.024,"{""Ca2CdP2"": 0.5, ""Sr2CdP2"": 0.5}",1.122,False,,2026-10-29T14:26:16Z,re-checked vs beta-Ca2CdP2 (CCDC 2054635): beta is +7.6 meV/atom vs alpha; hull uses the lower form
+2087,Ac4PrTe5,queued,,,,,,,
+2322,Rb2CdCuF6,queued,,,,,,,
+2571,,queued,,,,,,,
+3896,Rb2B4Pt3,fail,0.2063,"{""RbBPt"": 0.6667, ""BPt2"": 0.1667, ""B"": 0.1667}",,,,2026-10-28T18:51:29Z,"stopped by hand at vc-relax step 48 (forces 0.006 Ry/bohr, energy falling <0.0001 eV/atom/step); coarse-k energy, no final scf; 8x the 0.025 pass margin"

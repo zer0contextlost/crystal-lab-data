@@ -1,0 +1,15 @@
+{
+ "lab_id": 1501,
+ "formula": "Mg3Ni3GeP2",
+ "name": null,
+ "mace_e_hull": null,
+ "finished": 1793258949.3239908,
+ "vs": {
+  "Mg3P2": 0.2941,
+  "Mg4Ni7Ge6": 0.2222,
+  "NiGe": 0.0654,
+  "MgNi2P": 0.4183
+ },
+ "e_hull_dft": 0.1004,
+ "status": "fail"
+}

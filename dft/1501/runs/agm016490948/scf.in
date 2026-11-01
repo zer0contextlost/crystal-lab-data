@@ -1,0 +1,69 @@
+&CONTROL
+   calculation      = 'scf'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/1501/runs/agm016490948/tmp'
+   prefix           = 'scf'
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 45.0
+   ecutrho          = 360.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   nspin            = 2
+   starting_magnetization(1) = 0.0
+   starting_magnetization(2) = 2.0
+   starting_magnetization(3) = 0.0
+   ntyp             = 3
+   nat              = 17
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-08
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Mg  24.305 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+Ni  58.6934 ni_pbe_v1.4.uspp.F.UPF
+Ge  72.63 ge_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+5 5 5  0 0 0
+
+CELL_PARAMETERS angstrom
+6.80509134000000 -0.00000785000000 -0.00000000000000
+-2.26837118300000 6.41589927100000 0.00000000000000
+-2.26836008000000 -3.20794570900000 5.55633872000000
+
+ATOMIC_POSITIONS angstrom
+Mg  -1.1341800400 -1.6039728545 2.7781693602  
+Mg  1.1341800385 1.6039728560 2.7781693602  
+Mg  3.4025456699 -0.0000039249 0.0000000000  
+Mg  -1.1341855913 3.2079496355 0.0000000000  
+Ni  1.1341861485 -0.8019902149 4.1672493873  
+Ni  3.4025462279 2.4059554950 1.3890893330  
+Ni  3.4025456692 -0.0000039242 2.7781693278  
+Ni  -1.1341861507 0.8019902171 4.1672493873  
+Ni  1.1341739286 4.0099359268 1.3890893330  
+Ni  -1.1341855920 3.2079496362 2.7781693926  
+Ni  0.0000000000 0.0000000000 0.0000000000  
+Ge  -3.1052769070 2.1957632167 3.8031735991  
+Ge  3.1052769050 -2.1957632147 3.8031735991  
+Ge  1.4314577215 2.0243867347 0.0000000000  
+Ge  -1.4314543556 1.0121903452 1.7531651213  
+Ge  1.4314543547 -1.0121903443 1.7531651213  
+Ge  3.1052624357 4.3915046864 0.0000000000  
+

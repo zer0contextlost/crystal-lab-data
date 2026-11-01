@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ni4Ge4
+_chemical_formula_sum              "Ni4 Ge4"
+_cell_length_a       3.383922468
+_cell_length_b       5.543534336
+_cell_length_c       5.841368015
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.25  0.5052468337593066  0.688650677182167  1.0000
+  Ni  Ni2       1.0  0.7500000000295514  0.4947531662767715  0.31134932290342954  1.0000
+  Ni  Ni3       1.0  0.25  0.005246833741267549  0.8113493229376681  1.0000
+  Ni  Ni4       1.0  0.7500000000295514  0.9947531662948106  0.18865067714792838  1.0000
+  Ge  Ge1       1.0  0.25  0.6911826912692546  0.08304128311285658  1.0000
+  Ge  Ge2       1.0  0.7500000000295514  0.3088173087487845  0.9169587169556206  1.0000
+  Ge  Ge3       1.0  0.25  0.19118269126925458  0.41695871692138203  1.0000
+  Ge  Ge4       1.0  0.7500000000295514  0.8088173087668237  0.5830412831470952  1.0000

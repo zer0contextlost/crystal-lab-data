@@ -1,0 +1,14 @@
+{
+ "beta_minus_alpha_meV_atom": 7.6,
+ "e_hull_vs_alpha": -0.024,
+ "e_hull_vs_lowest_Ca2CdP2": -0.024,
+ "beta": {
+  "energy_eV": -20444.396790078288,
+  "natoms": 25,
+  "e_per_atom": -817.7758716031316,
+  "vol_per_atom": 23.577043566758658,
+  "vol_change_pct": 1.8458678591912303,
+  "hours": 12.91
+ },
+ "status": "pass"
+}

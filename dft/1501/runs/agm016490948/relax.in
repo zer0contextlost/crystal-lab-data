@@ -1,0 +1,72 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   nstep            = 150
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/1501/runs/agm016490948/tmp'
+   prefix           = 'relax'
+   etot_conv_thr    = 1e-05
+   forc_conv_thr    = 0.001
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 45.0
+   ecutrho          = 360.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   nspin            = 2
+   starting_magnetization(1) = 0.0
+   starting_magnetization(2) = 2.0
+   starting_magnetization(3) = 0.0
+   ntyp             = 3
+   nat              = 17
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-07
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Mg  24.305 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+Ni  58.6934 ni_pbe_v1.4.uspp.F.UPF
+Ge  72.63 ge_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+3 3 3  0 0 0
+
+CELL_PARAMETERS angstrom
+6.81015366000000 0.00000000000000 0.00000000000000
+-2.27005122173800 6.42067444459670 0.00000000000000
+-2.27005122061738 -3.21033722083463 5.56046717975286
+
+ATOMIC_POSITIONS angstrom
+Mg  -1.1350256103 -1.6051686104 2.7802335899  
+Mg  1.1350256088 1.6051686119 2.7802335899  
+Mg  3.4050768300 0.0000000000 0.0000000000  
+Mg  -1.1350256109 3.2103372223 0.0000000000  
+Ni  1.1350256091 -0.8025843045 4.1703503848  
+Ni  3.4050768290 2.4077529171 1.3901167949  
+Ni  3.4050768293 0.0000000007 2.7802335899  
+Ni  -1.1350256113 0.8025843067 4.1703503848  
+Ni  1.1350256085 4.0129215282 1.3901167949  
+Ni  -1.1350256116 3.2103372230 2.7802335899  
+Ni  0.0000000000 0.0000000000 0.0000000000  
+Ge  -3.1056633864 2.1960356403 3.8036453034  
+Ge  3.1056633844 -2.1960356383 3.8036453034  
+Ge  1.4344390546 2.0286031660 0.0000000000  
+Ge  -1.4344390559 1.0143015835 1.7568218764  
+Ge  1.4344390550 -1.0143015826 1.7568218764  
+Ge  3.1056633836 4.3920712786 0.0000000000  
+

@@ -1,0 +1,18 @@
+{
+ "formula": "Ac4PrTe5",
+ "nsites": 20,
+ "decomposition": [
+  {
+   "id": "agm014717878",
+   "formula": "Ac3PrTe4",
+   "frac": 0.8,
+   "nsites": 8
+  },
+  {
+   "id": "agm001192196",
+   "formula": "AcTe",
+   "frac": 0.2,
+   "nsites": 2
+  }
+ ]
+}
