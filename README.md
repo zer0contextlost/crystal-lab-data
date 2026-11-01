@@ -13,7 +13,7 @@ Built 2026-11-01. Rebuilt nightly while the pipeline runs.
 
 | | count |
 |---|---|
-| Structures generated | 5404 |
+| Structures generated | 5405 |
 | Kept as "discoveries" (stable by ML and not found in reference databases at the time) | 1593 |
 | ML hull check finished | 968 |
 | ML hull check at or below 0 eV/atom | 0 |
@@ -29,9 +29,10 @@ New rows need a few nights of hull checks before their numbers mean much.
 | random formula (before 11-01) | 3713 | 1327 | 873 | 0.356 | 1 | 0 |
 | surprise (before 11-01) | 1681 | 266 | 95 | 0.133 | 14 | 1 |
 | human | 10 | 0 | 0 | - | 0 | 0 |
+| surprise | 1 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 1979, rock solid 1325, plausible 1214, borderline 723, falls apart 163.
-Novelty at generation time: skipped 2865, new composition 967, known 941, new structure 626, rediscovered 5.
+ML verdicts: unstable 1979, rock solid 1325, plausible 1214, borderline 724, falls apart 163.
+Novelty at generation time: skipped 2866, new composition 967, known 941, new structure 626, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen

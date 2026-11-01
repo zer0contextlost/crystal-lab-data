@@ -5403,3 +5403,4 @@ id,created,origin,formula,spacegroup,natoms,ml_verdict,e_form_eV_atom,novelty,ca
 5402,2026-11-01T16:47:55Z,autopilot,BeB4W3,Immm,16,rock solid,-0.6272,new composition,True,pending,,,
 5403,2026-11-01T16:58:07Z,autopilot,CaSi,P-6m2,2,borderline,-0.0077,skipped,False,,,,
 5404,2026-11-01T17:08:29Z,autopilot,SrCa2NiSn,P4/mmm,5,plausible,-0.2788,known,False,,,,
+5405,2026-11-01T17:33:54Z,autopilot,La6PmNd,P4/mmm,8,borderline,-0.0111,skipped,False,,,,

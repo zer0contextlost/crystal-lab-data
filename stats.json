@@ -1,16 +1,16 @@
 {
  "built": "2026-11-01",
- "structures": 5404,
+ "structures": 5405,
  "catalogued": 1593,
  "ml_verdicts": {
-  "borderline": 723,
+  "borderline": 724,
   "falls apart": 163,
   "plausible": 1214,
   "rock solid": 1325,
   "unstable": 1979
  },
  "novelty": {
-  "skipped": 2865,
+  "skipped": 2866,
   "known": 941,
   "new composition": 967,
   "new structure": 626,
@@ -45,6 +45,14 @@
    "hull_checked": 873,
    "median_e_hull": 0.356,
    "within_0_05": 1
+  },
+  "surprise": {
+   "structures": 1,
+   "new": 0,
+   "dft_pass": 0,
+   "hull_checked": 0,
+   "median_e_hull": null,
+   "within_0_05": 0
   }
  }
 }
