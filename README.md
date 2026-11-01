@@ -13,17 +13,29 @@ Built 2026-11-01. Rebuilt nightly while the pipeline runs.
 
 | | count |
 |---|---|
-| Structures generated | 5402 |
+| Structures generated | 5404 |
 | Kept as "discoveries" (stable by ML and not found in reference databases at the time) | 1593 |
 | ML hull check finished | 968 |
 | ML hull check at or below 0 eV/atom | 0 |
-| DFT jobs (passes / fails / still running or queued) | 8 (1 / 2 / 5) |
+| DFT jobs (passes / fails / still running or queued) | 9 (1 / 2 / 6) |
 
-ML verdicts: unstable 1979, rock solid 1325, plausible 1213, borderline 722, falls apart 163.
-Novelty at generation time: skipped 2864, new composition 967, known 940, new structure 626, rediscovered 5.
+### How the prompts were chosen, and how each way does
+On 2026-11-01 the autopilot switched from random formulas to mostly substitution-based prompts (see METHODS.md).
+This table compares the sources; "within 0.05" counts ML hull results at most 0.05 eV/atom above the hull.
+New rows need a few nights of hull checks before their numbers mean much.
+
+| prompt mode | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
+|---|---|---|---|---|---|---|
+| random formula (before 11-01) | 3713 | 1327 | 873 | 0.356 | 1 | 0 |
+| surprise (before 11-01) | 1681 | 266 | 95 | 0.133 | 14 | 1 |
+| human | 10 | 0 | 0 | - | 0 | 0 |
+
+ML verdicts: unstable 1979, rock solid 1325, plausible 1214, borderline 723, falls apart 163.
+Novelty at generation time: skipped 2865, new composition 967, known 941, new structure 626, rediscovered 5.
 
 ### Files
-- `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, ML energies and verdict,
+- `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
+  (`prompt_mode`, from 2026-11-01), ML energies and verdict,
   novelty check (with the matching database IDs when it was already known), ML hull result, DFT summary.
 - `structures.csv`: the same without CIFs, for spreadsheets.
 - `dft_results.csv`: one row per DFT job.

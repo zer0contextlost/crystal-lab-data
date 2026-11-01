@@ -1,0 +1,24 @@
+{
+ "formula": "KTlAgCl3",
+ "nsites": 24,
+ "decomposition": [
+  {
+   "id": "agm005586599",
+   "formula": "TlAgCl2",
+   "frac": 0.4444,
+   "nsites": 16
+  },
+  {
+   "id": "agm014073652",
+   "formula": "K3TlCl4",
+   "frac": 0.4444,
+   "nsites": 16
+  },
+  {
+   "id": "agm073555318",
+   "formula": "AgCl",
+   "frac": 0.1111,
+   "nsites": 4
+  }
+ ]
+}

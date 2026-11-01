@@ -4,6 +4,14 @@
 Structures come from **CrystaLLM** (a language model trained on CIF files), prompted with a composition. Most
 prompts are picked automatically ("autopilot"); a few were typed by a person. `origin` and `prompt` record which.
 
+How the autopilot picks prompts changed on 2026-11-01 (`prompt_mode` records it from then on):
+- before: 30% no composition (CrystaLLM chooses), 70% random cations and counts plus a random anion, with no
+  charge balance. On our own hull data these random formulas were the worst source by far.
+- since: 45% **substitution** (one element of a stable Alexandria compound swapped for a likely replacement:
+  pymatgen's data-mined substitution probabilities for ions, same-group neighbours otherwise, metal-for-metal in
+  intermetallics; formulas already in the 2.8M-structure training index removed; f-block lanthanides left out
+  because plain PBE handles them poorly), 40% CrystaLLM chooses, 15% random but charge-balanced.
+
 ## 2. ML screen
 Each structure is relaxed with **MACE** (float64). The verdict comes from the formation energy relative to the
 elements and from how much the cell changed in relaxation:
