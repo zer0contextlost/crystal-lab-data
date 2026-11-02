@@ -1,0 +1,13 @@
+{
+ "lab_id": 2571,
+ "formula": "BaCdGePd2",
+ "name": null,
+ "mace_e_hull": null,
+ "finished": 1793572722.469981,
+ "vs": {
+  "BaGePd": 0.6,
+  "CdPd": 0.4
+ },
+ "e_hull_dft": 0.003,
+ "status": "pass"
+}
