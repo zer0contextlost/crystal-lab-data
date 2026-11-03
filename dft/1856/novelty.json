@@ -1,0 +1,17 @@
+{
+ "formula": "SrCaCdP2",
+ "checked_at": "2026-11-03 07:59:59",
+ "databases": {
+  "Materials Project": [],
+  "Alexandria": [],
+  "OQMD": [
+   "5875226",
+   "5879242"
+  ],
+  "COD": []
+ },
+ "errors": [],
+ "literature": [],
+ "spellings_searched": 24,
+ "verdict": "found"
+}

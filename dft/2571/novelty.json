@@ -1,0 +1,14 @@
+{
+ "formula": "BaCdGePd2",
+ "checked_at": "2026-11-03 08:00:15",
+ "databases": {
+  "Materials Project": [],
+  "Alexandria": [],
+  "OQMD": [],
+  "COD": []
+ },
+ "errors": [],
+ "literature": [],
+ "spellings_searched": 24,
+ "verdict": "clean"
+}

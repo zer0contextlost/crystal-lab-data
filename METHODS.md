@@ -49,6 +49,12 @@ PBE band gap and density of states at the Fermi level; elastic tensor from ±1% 
 fixed cell), with Born stability check. PBE underestimates band gaps, often by a factor of ~2.
 
 ## 7. Phonons (passes only)
+Since 2026-11-03 a pass first gets a composition check (`dft/<id>/novelty.json`, summarised in the
+`prior_reports` column of `dft_results.csv`): any entry with the same reduced formula, in any structure, in
+Materials Project, Alexandria, OQMD or COD, or the formula (every element ordering) in a paper title/abstract
+indexed by OpenAlex. Any hit means no phonon run unless reviewed. This is wider than the structure match in §3:
+#1856 SrCaCdP2 passed §3 but its structure is OQMD entry 5879242 (a computed prediction, no ICSD record).
+
 phonopy finite displacements on a supercell with every side ≥ 7 Å, after a tight fixed-cell relaxation;
 frequencies on a 10×10×10 mesh. Any mode softer than -0.1 THz away from the Γ acoustic modes = unstable. The
 supercell is small, so long-wavelength instabilities can be missed.
