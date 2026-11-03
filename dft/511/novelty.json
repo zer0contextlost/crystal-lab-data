@@ -1,0 +1,30 @@
+{
+ "formula": "TbPr4Te5",
+ "checked_at": "2026-11-03 14:21:07",
+ "databases": {
+  "Alexandria PBE": [
+   "agm003653003"
+  ],
+  "nmd/nmd": [
+   "Urw0sfCTuOAlCT1XYDA71eGoXVex",
+   "cE83Tcq8nFHhpkC3JdTaQt5kAjFx",
+   "e6VNa3HJ5qiGwqFRC80Nb8oxRBUn",
+   "jAVfwjYU9g0k0RAp1JlBaZ9K4h09"
+  ]
+ },
+ "literature": [],
+ "errors": [
+  "MPDS: Expecting value: line 1 column 1 (char 0)"
+ ],
+ "unavailable": [
+  "aflow/aflow: HTTPSConnectionPool(host='aflow.org', port=443): Max retries exceeded with url: /API/optimade/v1/str",
+  "cmr/cmr: HTTPSConnectionPool(host='cmr-optimade.fysik.dtu.dk', port=443): Max retries exceeded with url: /v1/",
+  "tcod/tcod: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "mpdd/mpdd: HTTPConnectionPool(host='mpddoptimade.phaseslab.org', port=80): Read timed out. (read timeout=25)",
+  "mpod/mpod: HTTPConnectionPool(host='mpod_optimade.cimav.edu.mx', port=80): Max retries exceeded with url: /v1/s",
+  "matterverse/matterverse: HTTPSConnectionPool(host='optimade.matterverse.ai', port=443): Read timed out. (read timeout=25)"
+ ],
+ "spellings_searched": 6,
+ "sources_checked": 30,
+ "verdict": "found"
+}

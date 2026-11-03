@@ -1,14 +1,17 @@
 {
  "formula": "BaCdGePd2",
- "checked_at": "2026-11-03 08:00:15",
- "databases": {
-  "Materials Project": [],
-  "Alexandria": [],
-  "OQMD": [],
-  "COD": []
- },
- "errors": [],
+ "checked_at": "2026-11-03 14:24:05",
+ "databases": {},
  "literature": [],
+ "errors": [],
+ "unavailable": [
+  "aflow/aflow: HTTPSConnectionPool(host='aflow.org', port=443): Max retries exceeded with url: /API/optimade/v1/str",
+  "cmr/cmr: 404 Client Error: Not Found for url: https://www.optimade.org/v1/structures?filter=elements+HAS+ALL+",
+  "mpdd/mpdd: HTTPConnectionPool(host='mpddoptimade.phaseslab.org', port=80): Read timed out. (read timeout=25)",
+  "mpod/mpod: HTTPConnectionPool(host='mpod_optimade.cimav.edu.mx', port=80): Max retries exceeded with url: /v1/s",
+  "matterverse/matterverse: HTTPSConnectionPool(host='optimade.matterverse.ai', port=443): Read timed out. (read timeout=25)"
+ ],
  "spellings_searched": 24,
+ "sources_checked": 32,
  "verdict": "clean"
 }

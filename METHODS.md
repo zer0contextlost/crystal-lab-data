@@ -23,6 +23,19 @@ since 2026-10-28, live against **Materials Project** and **Alexandria** via OPTI
 records include the matching ID. Before 2026-10-28 only the local index was used, which missed some known
 compounds; affected records were re-audited.
 
+Since 2026-11-03 a discovery must also be a **composition nobody has reported, in any structure**:
+- before generation, autopilot formulas (substitution and random modes) are skipped if they appear in a local
+  list of known compositions (the 2024 index above + current Alexandria PBE/PBEsol + both GNoME releases +
+  Materials Project, rebuilt weekly); "surprise" crystals, where CrystaLLM picks the formula, are checked right
+  after generation and skipped before MACE. The README's prompt-mode table counts these skips.
+- before cataloguing, viable crystals get the online prior-art check described in §7 (about 32 sources incl.
+  OQMD, COD, MPDS, NOMAD, OpenAlex and arXiv). A hit gives novelty `known composition` and no catalogue entry.
+- a new arrangement of a known formula (the old `new structure` status) is no longer catalogued; the 638
+  existing ones and every other catalogued record that failed the composition check were re-labelled
+  `known composition` on 2026-11-03, with their old catalogue number and name kept in the novelty record.
+- `control` prompts (5% of autopilot) ask for known stable compounds on purpose, to check that the generator and
+  MACE still recognise real crystals. They are never catalogued.
+
 ## 4. ML convex hull
 Nightly, catalogued structures get an energy above the hull: MACE energies of the candidate vs MACE-relaxed
 Alexandria phases near the hull in the same chemical system. `decomposes_to` lists the hull products and

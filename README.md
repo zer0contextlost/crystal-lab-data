@@ -10,32 +10,46 @@ out to be known compounds, or less stable than their real competitors, once the 
 Built 2026-11-03. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
 raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01).
 
+## 2026-11-03: stricter novelty rule
+A candidate now counts as new only if its **composition** has not been reported anywhere we check, in any
+structure: Materials Project, Alexandria, OQMD, COD, MPDS, Materials Cloud, GNoME, NOMAD and about 20 more
+OPTIMADE databases, plus paper titles and abstracts (OpenAlex, arXiv). Before, novelty meant "no matching
+structure in Materials Project or Alexandria". The stricter check found that our first DFT pass, #1856 SrCaCdP2,
+was already predicted with the same structure in OQMD (entry 5879242), and that all five DFT jobs then in the
+queue were known compositions; those five were taken out of the queue. Every catalogued record was re-checked the same way and
+the already-reported ones re-labelled `known composition` (their old catalogue number and name are kept in the
+novelty record). Known formulas are now also skipped before the generator spends any compute on them. Details in
+METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
+
 ## What's in it
 
 | | count |
 |---|---|
-| Structures generated | 5540 |
-| Kept as "discoveries" (stable by ML and not found in reference databases at the time) | 1641 |
-| ML hull check finished | 977 |
+| Structures generated | 5546 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 958 |
+| ML hull check finished | 596 |
 | ML hull check at or below 0 eV/atom | 0 |
 | DFT jobs (passes / fails / still running or queued) | 9 (2 / 2 / 5) |
 
 ### How the prompts were chosen, and how each way does
 On 2026-11-01 the autopilot switched from random formulas to mostly substitution-based prompts (see METHODS.md).
 This table compares the sources; "within 0.05" counts ML hull results at most 0.05 eV/atom above the hull.
+"Skipped as already known" (from 2026-11-03) counts formulas dropped before any ML work because the composition
+was already reported; `control` rows are known compounds requested on purpose as a calibration check.
 New rows need a few nights of hull checks before their numbers mean much.
 
-| prompt mode | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
-|---|---|---|---|---|---|---|
-| random formula (before 11-01) | 3713 | 1327 | 876 | 0.358 | 1 | 0 |
-| surprise (before 11-01) | 1681 | 266 | 96 | 0.136 | 14 | 2 |
-| substitution | 67 | 32 | 3 | 0.178 | 0 | 0 |
-| surprise | 52 | 7 | 0 | - | 0 | 0 |
-| random | 17 | 9 | 2 | 0.319 | 0 | 0 |
-| human | 10 | 0 | 0 | - | 0 | 0 |
+| prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
+|---|---|---|---|---|---|---|---|
+| random formula (before 11-01) | 0 | 3713 | 825 | 541 | 0.386 | 0 | 0 |
+| surprise (before 11-01) | 0 | 1681 | 107 | 53 | 0.141 | 6 | 2 |
+| substitution | 0 | 67 | 22 | 2 | 0.272 | 0 | 0 |
+| surprise | 1 | 55 | 3 | 0 | - | 0 | 0 |
+| random | 0 | 19 | 1 | 0 | - | 0 | 0 |
+| human | 0 | 10 | 0 | 0 | - | 0 | 0 |
+| control | 0 | 1 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2016, rock solid 1365, plausible 1249, borderline 742, falls apart 168.
-Novelty at generation time: skipped 2926, new composition 1004, known 968, new structure 637, rediscovered 5.
+ML verdicts: unstable 2018, rock solid 1366, plausible 1251, borderline 743, falls apart 168.
+Novelty at generation time: skipped 2929, known 969, new composition 958, known composition 685, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
