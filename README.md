@@ -7,7 +7,7 @@ AI generators now propose crystals much faster than anyone checks them with phys
 open record of what happens when you do check: most candidates that look stable to a machine-learned model turn
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
-Built 2026-11-03. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
+Built 2026-11-04. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
 raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01).
 
 ## 2026-11-03: stricter novelty rule
@@ -25,8 +25,8 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 
 | | count |
 |---|---|
-| Structures generated | 5546 |
-| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 958 |
+| Structures generated | 5617 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 984 |
 | ML hull check finished | 596 |
 | ML hull check at or below 0 eV/atom | 0 |
 | DFT jobs (passes / fails / still running or queued) | 9 (2 / 2 / 5) |
@@ -42,14 +42,14 @@ New rows need a few nights of hull checks before their numbers mean much.
 |---|---|---|---|---|---|---|---|
 | random formula (before 11-01) | 0 | 3713 | 825 | 541 | 0.386 | 0 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 107 | 53 | 0.141 | 6 | 2 |
-| substitution | 0 | 67 | 22 | 2 | 0.272 | 0 | 0 |
-| surprise | 1 | 55 | 3 | 0 | - | 0 | 0 |
-| random | 0 | 19 | 1 | 0 | - | 0 | 0 |
+| substitution | 68 | 117 | 43 | 2 | 0.272 | 0 | 0 |
+| surprise | 45 | 57 | 3 | 0 | - | 0 | 0 |
+| random | 20 | 33 | 6 | 0 | - | 0 | 0 |
 | human | 0 | 10 | 0 | 0 | - | 0 | 0 |
-| control | 0 | 1 | 0 | 0 | - | 0 | 0 |
+| control | 0 | 6 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2018, rock solid 1366, plausible 1251, borderline 743, falls apart 168.
-Novelty at generation time: skipped 2929, known 969, new composition 958, known composition 685, rediscovered 5.
+ML verdicts: unstable 2037, rock solid 1396, plausible 1265, borderline 750, falls apart 169.
+Novelty at generation time: skipped 2956, new composition 984, known 970, known composition 702, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen

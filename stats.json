@@ -1,19 +1,19 @@
 {
- "built": "2026-11-03",
- "structures": 5546,
- "catalogued": 958,
+ "built": "2026-11-04",
+ "structures": 5617,
+ "catalogued": 984,
  "ml_verdicts": {
-  "borderline": 743,
-  "falls apart": 168,
-  "plausible": 1251,
-  "rock solid": 1366,
-  "unstable": 2018
+  "borderline": 750,
+  "falls apart": 169,
+  "plausible": 1265,
+  "rock solid": 1396,
+  "unstable": 2037
  },
  "novelty": {
-  "skipped": 2929,
-  "known": 969,
-  "new composition": 958,
-  "known composition": 685,
+  "skipped": 2956,
+  "known": 970,
+  "new composition": 984,
+  "known composition": 702,
   "rediscovered": 5
  },
  "ml_hull_done": 596,
@@ -50,34 +50,34 @@
    "within_0_05": 0
   },
   "surprise": {
-   "structures": 55,
+   "structures": 57,
    "new": 3,
    "dft_pass": 0,
-   "known_skipped": 1,
+   "known_skipped": 45,
    "hull_checked": 0,
    "median_e_hull": null,
    "within_0_05": 0
   },
   "random": {
-   "structures": 19,
-   "new": 1,
+   "structures": 33,
+   "new": 6,
    "dft_pass": 0,
-   "known_skipped": 0,
+   "known_skipped": 20,
    "hull_checked": 0,
    "median_e_hull": null,
    "within_0_05": 0
   },
   "substitution": {
-   "structures": 67,
-   "new": 22,
+   "structures": 117,
+   "new": 43,
    "dft_pass": 0,
-   "known_skipped": 0,
+   "known_skipped": 68,
    "hull_checked": 2,
    "median_e_hull": 0.272,
    "within_0_05": 0
   },
   "control": {
-   "structures": 1,
+   "structures": 6,
    "new": 0,
    "dft_pass": 0,
    "known_skipped": 0,

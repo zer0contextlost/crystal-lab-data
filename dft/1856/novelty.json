@@ -1,17 +1,51 @@
 {
  "formula": "SrCaCdP2",
- "checked_at": "2026-11-03 07:59:59",
+ "checked_at": "2026-11-03 15:23:11",
  "databases": {
-  "Materials Project": [],
-  "Alexandria": [],
+  "GNoME (odbx)": [
+   "cfec01a8d3"
+  ],
+  "nmd/nmd": [
+   "2Vo6hB3CWU9BNbDGx6ZiKt4-wmZH",
+   "2X5WV-D0qwbr3bcRVuQbqB0sb5KP",
+   "3F0ChFNJKB79CaZP4xfU1lmSuuA4",
+   "6VpbtPpxpvcpXoqWcmfvfLbUx98t",
+   "9MiuFBYdOH-XhkdFfWXwXpfCj98y",
+   "L1nEaaJjv6-ubW7p-K7A-6Y9tmsL",
+   "L6dQtSKikGzKCAlJ66c3TcVK0aoC",
+   "MU0ymOMxgwpDhHuESOCPBGhUfOWL",
+   "OhVybd7eC0GgRNOyne2ShuKx48Ks",
+   "Pth2_FQv-BGPOJEmINzZV7fF6Xcs",
+   "Qa_YAmWNr3N5yzojx0I_yEe9Fdvc",
+   "Qj0_ufwQ8mM8IGxH7ouMue6CXJSK",
+   "SagbKAdWGkxvMbM94V-R9vhpKEeV",
+   "ZUwszhClYlTmTI6DJWaOQT6ik3UU",
+   "jRQnkvf84gTCtarmq7eIK4-C35um",
+   "ldt3kEyhBq8Z9LDjDw9nXAmZbh06",
+   "mx4boEP7NkjuW12UhQ6GNnT7EEnp",
+   "oE7UmXZv8siABxk2tI3nhSrX42FB",
+   "u3CH4VtjtUDQyG1HaPYKlfmOGLii"
+  ],
   "OQMD": [
    "5875226",
    "5879242"
-  ],
-  "COD": []
+  ]
  },
- "errors": [],
  "literature": [],
+ "errors": [
+  "OQMD: HTTP 502",
+  "COD: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ],
+ "unavailable": [
+  "aflow/aflow: HTTPSConnectionPool(host='aflow.org', port=443): Max retries exceeded with url: /API/optimade/v1/str",
+  "cmr/cmr: 404 Client Error: Not Found for url: https://www.optimade.org/v1/structures?filter=elements+HAS+ALL+",
+  "mpdd/mpdd: HTTPConnectionPool(host='mpddoptimade.phaseslab.org', port=80): Read timed out. (read timeout=25)",
+  "matterverse/matterverse: HTTPSConnectionPool(host='optimade.matterverse.ai', port=443): Read timed out. (read timeout=25)",
+  "mpod/mpod: HTTPConnectionPool(host='mpod_optimade.cimav.edu.mx', port=80): Max retries exceeded with url: /v1/s",
+  "tcod/tcod: HTTPSConnectionPool(host='www.crystallography.net', port=443): Read timed out. (read timeout=25)"
+ ],
  "spellings_searched": 24,
- "verdict": "found"
+ "sources_checked": 29,
+ "verdict": "found",
+ "note": "OQMD was down (502) at this check; its two entries (same structure as ours, matched 2026-11-03) are carried over from the earlier check."
 }
