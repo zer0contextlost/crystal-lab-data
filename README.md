@@ -25,8 +25,8 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 
 | | count |
 |---|---|
-| Structures generated | 5747 |
-| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 866 |
+| Structures generated | 5751 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 867 |
 | ML hull check finished | 540 |
 | ML hull check at or below 0 eV/atom | 0 |
 | DFT jobs (passes / fails / still running or queued) | 9 (2 / 2 / 5) |
@@ -42,14 +42,14 @@ New rows need a few nights of hull checks before their numbers mean much.
 |---|---|---|---|---|---|---|---|
 | random formula (before 11-01) | 0 | 3713 | 696 | 459 | 0.399 | 0 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 53 | 0.141 | 6 | 2 |
-| substitution | 142 | 198 | 49 | 27 | 0.216 | 0 | 0 |
+| substitution | 152 | 202 | 50 | 27 | 0.216 | 0 | 0 |
 | random | 60 | 64 | 15 | 1 | 0.762 | 0 | 0 |
 | surprise | 117 | 59 | 5 | 0 | - | 0 | 0 |
 | control | 0 | 22 | 0 | 0 | - | 0 | 0 |
 | human | 0 | 10 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2084, rock solid 1428, plausible 1293, borderline 766, falls apart 176.
-Novelty at generation time: skipped 3026, known 976, known composition 874, new composition 866, rediscovered 5.
+ML verdicts: unstable 2085, rock solid 1430, plausible 1293, borderline 767, falls apart 176.
+Novelty at generation time: skipped 3028, known 976, known composition 875, new composition 867, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
