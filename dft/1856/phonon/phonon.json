@@ -1,0 +1,32 @@
+{
+ "formula": "CaCdP2Sr",
+ "spacegroup": "Cmc2_1 (36)",
+ "supercell": [
+  2,
+  1,
+  1
+ ],
+ "supercell_atoms": 40,
+ "displacements": 20,
+ "min_freq_THz": 0.0,
+ "min_freq_q": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "imaginary_modes_on_mesh": 0,
+ "mesh": [
+  10,
+  10,
+  10
+ ],
+ "gamma_acoustic_THz": [
+  -0.0,
+  -0.0,
+  0.0
+ ],
+ "max_freq_THz": 8.99,
+ "status": "stable",
+ "hours": 108.0,
+ "finished": 1793942466.3017085
+}
