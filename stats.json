@@ -1,19 +1,19 @@
 {
  "built": "2026-11-06",
- "structures": 5751,
- "catalogued": 867,
+ "structures": 5756,
+ "catalogued": 869,
  "ml_verdicts": {
-  "borderline": 767,
+  "borderline": 768,
   "falls apart": 176,
   "plausible": 1293,
-  "rock solid": 1430,
-  "unstable": 2085
+  "rock solid": 1433,
+  "unstable": 2086
  },
  "novelty": {
-  "skipped": 3028,
+  "skipped": 3030,
   "known": 976,
-  "new composition": 867,
-  "known composition": 875,
+  "new composition": 869,
+  "known composition": 876,
   "rediscovered": 5
  },
  "ml_hull_done": 540,
@@ -53,7 +53,7 @@
    "structures": 59,
    "new": 5,
    "dft_pass": 0,
-   "known_skipped": 117,
+   "known_skipped": 119,
    "hull_checked": 0,
    "median_e_hull": null,
    "within_0_05": 0
@@ -68,10 +68,10 @@
    "within_0_05": 0
   },
   "substitution": {
-   "structures": 202,
-   "new": 50,
+   "structures": 207,
+   "new": 52,
    "dft_pass": 0,
-   "known_skipped": 152,
+   "known_skipped": 153,
    "hull_checked": 27,
    "median_e_hull": 0.216,
    "within_0_05": 0

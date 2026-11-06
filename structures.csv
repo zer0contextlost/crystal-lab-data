@@ -5750,3 +5750,8 @@ id,created,origin,formula,spacegroup,natoms,ml_verdict,e_form_eV_atom,novelty,ca
 5749,2026-11-06T13:24:48Z,autopilot,Rb(RhS2)4,P1,13,rock solid,-0.7331,known composition,False,,,,
 5750,2026-11-06T13:35:08Z,autopilot,Cs2Co3O4,P3m1,9,borderline,-0.0526,skipped,False,,,,
 5751,2026-11-06T13:46:08Z,autopilot,Os(SBr6)2,P-1,15,unstable,5.7333,skipped,False,,,,
+5752,2026-11-06T14:03:02Z,autopilot,Cs2ReSe4,I4/mmm,14,rock solid,-0.5308,known composition,False,,,,
+5753,2026-11-06T14:30:06Z,autopilot,GaCu3O4,P-43m,8,rock solid,-0.9646,new composition,True,pending,,,
+5754,2026-11-06T14:47:19Z,autopilot,Mg(ReS4)2,P-1,11,rock solid,-0.7046,new composition,True,pending,,,
+5755,2026-11-06T15:07:45Z,autopilot,Sn3P2Pt,P6_3/mcm,12,borderline,0.0166,skipped,False,,,,
+5756,2026-11-06T15:17:57Z,autopilot,RbAl7,Immm,16,unstable,0.1171,skipped,False,,,,
