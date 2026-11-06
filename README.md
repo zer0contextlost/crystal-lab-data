@@ -8,7 +8,7 @@ open record of what happens when you do check: most candidates that look stable 
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
 Built 2026-11-06. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
-raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01).
+raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g)).
 
 ## 2026-11-03: stricter novelty rule
 A candidate now counts as new only if its **composition** has not been reported anywhere we check, in any
@@ -27,7 +27,7 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 |---|---|
 | Structures generated | 5747 |
 | Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 866 |
-| ML hull check finished | 539 |
+| ML hull check finished | 540 |
 | ML hull check at or below 0 eV/atom | 0 |
 | DFT jobs (passes / fails / still running or queued) | 9 (2 / 2 / 5) |
 
@@ -40,7 +40,7 @@ New rows need a few nights of hull checks before their numbers mean much.
 
 | prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
 |---|---|---|---|---|---|---|---|
-| random formula (before 11-01) | 0 | 3713 | 696 | 458 | 0.4 | 0 | 0 |
+| random formula (before 11-01) | 0 | 3713 | 696 | 459 | 0.399 | 0 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 53 | 0.141 | 6 | 2 |
 | substitution | 142 | 198 | 49 | 27 | 0.216 | 0 | 0 |
 | random | 60 | 64 | 15 | 1 | 0.762 | 0 | 0 |

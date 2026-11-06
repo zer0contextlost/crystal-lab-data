@@ -16,7 +16,7 @@
   "known composition": 874,
   "rediscovered": 5
  },
- "ml_hull_done": 539,
+ "ml_hull_done": 540,
  "ml_hull_at_or_below_0": 0,
  "dft_jobs": 9,
  "dft_pass": 2,
@@ -45,8 +45,8 @@
    "new": 696,
    "dft_pass": 0,
    "known_skipped": 0,
-   "hull_checked": 458,
-   "median_e_hull": 0.4,
+   "hull_checked": 459,
+   "median_e_hull": 0.399,
    "within_0_05": 0
   },
   "surprise": {
