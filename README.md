@@ -27,7 +27,7 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 |---|---|
 | Structures generated | 5747 |
 | Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 866 |
-| ML hull check finished | 538 |
+| ML hull check finished | 539 |
 | ML hull check at or below 0 eV/atom | 0 |
 | DFT jobs (passes / fails / still running or queued) | 9 (2 / 2 / 5) |
 
@@ -42,7 +42,7 @@ New rows need a few nights of hull checks before their numbers mean much.
 |---|---|---|---|---|---|---|---|
 | random formula (before 11-01) | 0 | 3713 | 696 | 458 | 0.4 | 0 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 53 | 0.141 | 6 | 2 |
-| substitution | 142 | 198 | 49 | 26 | 0.216 | 0 | 0 |
+| substitution | 142 | 198 | 49 | 27 | 0.216 | 0 | 0 |
 | random | 60 | 64 | 15 | 1 | 0.762 | 0 | 0 |
 | surprise | 117 | 59 | 5 | 0 | - | 0 | 0 |
 | control | 0 | 22 | 0 | 0 | - | 0 | 0 |
