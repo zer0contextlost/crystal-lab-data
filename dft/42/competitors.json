@@ -1,0 +1,18 @@
+{
+ "formula": "LaNd2(GeRh)4",
+ "nsites": 22,
+ "decomposition": [
+  {
+   "id": "agm002152330",
+   "formula": "Nd3(GeRh)4",
+   "frac": 0.6667,
+   "nsites": 11
+  },
+  {
+   "id": "agm002214642",
+   "formula": "La3(GeRh)4",
+   "frac": 0.3333,
+   "nsites": 11
+  }
+ ]
+}

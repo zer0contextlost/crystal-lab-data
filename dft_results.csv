@@ -1,4 +1,5 @@
 lab_id,formula,dft_status,e_hull_dft_eV_atom,decomposes_to,pbe_gap_eV,metal,phonon_stable,prior_reports,finished,note
+42,LaNd2(GeRh)4,queued,,,,,,,,
 511,TbPr4Te5,withdrawn,,,,,,Alexandria PBE:agm003653003; nmd/nmd:Urw0sfCTuOAlCT1XYDA71eGoXVex|cE83Tcq8nFHhpkC3JdTaQt5kAjFx|e6VNa3HJ5qiGwqFRC80Nb8oxRBUn|jAVfwjYU9g0k0RAp1JlBaZ9K4h09,,"already reported: Alexandria PBE agm003653003 + NOMAD (4); held 2026-11-03 mid-run, cached runs in jobs/.held-511"
 974,NaLaTe2,withdrawn,,,,,,Alexandria PBEsol:agm002166439|agm002347294; Alexandria PBE:agm001216710|agm001812197|agm002166439|agm002166440|agm002347294|agm002774289|agm002774290|agm002866446|agm005115025|agm013153765; mcloudarchive/ed-g2:agm002166439,,"already reported: Alexandria PBE (10), PBEsol (2), Materials Cloud archive (1); held 2026-11-03, see priorart/974.json"
 1501,Mg3Ni3GeP2,fail,0.1004,"{""Mg3P2"": 0.2941, ""Mg4Ni7Ge6"": 0.2222, ""NiGe"": 0.0654, ""MgNi2P"": 0.4183}",,,,nmd/nmd:Lc9GSCRqe_yM8PONaKlLa_uY1StJ|g4CugaivJ-hBTV0BLZL18DsBSTCj,2026-10-29T07:29:09Z,
