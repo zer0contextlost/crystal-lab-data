@@ -1,0 +1,62 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   nstep            = 150
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/42/runs/agm002214642/tmp'
+   prefix           = 'relax'
+   etot_conv_thr    = 1e-05
+   forc_conv_thr    = 0.001
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 40.0
+   ecutrho          = 320.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   ntyp             = 3
+   nat              = 11
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-07
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Ge 72.63 ge_pbe_v1.4.uspp.F.UPF
+Rh 102.9055 Rh_ONCV_PBE-1.0.oncvpsp.upf
+La 138.90547 La.GGA-PBE-paw-v1.0.UPF
+
+K_POINTS automatic
+4 4 2  0 0 0
+
+CELL_PARAMETERS angstrom
+4.18799886000000 0.00000000000000 0.00000000000000
+-0.00226508555459 4.26770741890301 0.00000000000000
+-2.10215802743513 -2.14941704582849 12.77201540278761
+
+ATOMIC_POSITIONS angstrom
+Ge -0.0035102861 -0.0132402322 11.5165349737  
+Ge 2.0870423827 2.1314750413 1.2554791519  
+Ge -0.0060579424 2.1265691077 7.7066085500  
+Ge 2.0895528565 -0.0084960793 5.0653989341  
+Rh -0.0123176713 2.1196922307 10.2135960343  
+Rh -0.0042999802 -0.0077060908 6.3886899523  
+Rh 2.0877932224 2.1257694283 6.3833200862  
+Rh 2.0958417512 -0.0014628621 2.5584174527  
+La 2.0900970328 -0.0101015121 9.0810356526  
+La -0.0065930103 2.1282029101 3.6909805165  
+La 4.1857148557 4.2676827481 0.0000028098  
+
