@@ -1,0 +1,30 @@
+{
+ "formula": "Li2Sc2CuSn2Rh",
+ "nsites": 8,
+ "decomposition": [
+  {
+   "id": "agm001335457",
+   "formula": "LiScSnRh",
+   "frac": 0.3,
+   "nsites": 4
+  },
+  {
+   "id": "agm002238815",
+   "formula": "ScCuSn",
+   "frac": 0.375,
+   "nsites": 6
+  },
+  {
+   "id": "agm002157163",
+   "formula": "Li7Sn2",
+   "frac": 0.225,
+   "nsites": 9
+  },
+  {
+   "id": "agm001191620",
+   "formula": "ScRh",
+   "frac": 0.1,
+   "nsites": 2
+  }
+ ]
+}

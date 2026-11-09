@@ -1,0 +1,17 @@
+{
+ "formula": "Cs2Hg3O4",
+ "checked_at": "2026-11-08 20:47:47",
+ "databases": {},
+ "literature": [],
+ "errors": [],
+ "unavailable": [
+  "cmr/cmr: 404 Client Error: Not Found for url: https://www.optimade.org/v1/structures?filter=elements+HAS+ALL+",
+  "aflow/aflow: too many pages",
+  "mpdd/mpdd: HTTPConnectionPool(host='mpddoptimade.phaseslab.org', port=80): Read timed out. (read timeout=25)",
+  "matterverse/matterverse: HTTPSConnectionPool(host='optimade.matterverse.ai', port=443): Read timed out. (read timeout=25)",
+  "mpod/mpod: HTTPConnectionPool(host='mpod_optimade.cimav.edu.mx', port=80): Max retries exceeded with url: /v1/s"
+ ],
+ "spellings_searched": 6,
+ "sources_checked": 32,
+ "verdict": "clean"
+}

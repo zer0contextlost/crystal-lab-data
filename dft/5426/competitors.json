@@ -1,0 +1,18 @@
+{
+ "formula": "Cs2Hg3O4",
+ "nsites": 18,
+ "decomposition": [
+  {
+   "id": "agm003194531",
+   "formula": "Cs2HgO2",
+   "frac": 0.5556,
+   "nsites": 5
+  },
+  {
+   "id": "agm003263607",
+   "formula": "HgO",
+   "frac": 0.4444,
+   "nsites": 8
+  }
+ ]
+}

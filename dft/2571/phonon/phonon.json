@@ -1,0 +1,32 @@
+{
+ "formula": "BaCdGePd2",
+ "spacegroup": "P4/nmm (129)",
+ "supercell": [
+  2,
+  2,
+  1
+ ],
+ "supercell_atoms": 40,
+ "displacements": 10,
+ "min_freq_THz": 0.0,
+ "min_freq_q": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "imaginary_modes_on_mesh": 0,
+ "mesh": [
+  10,
+  10,
+  10
+ ],
+ "gamma_acoustic_THz": [
+  -0.0,
+  0.0,
+  0.0
+ ],
+ "max_freq_THz": 5.99,
+ "status": "stable",
+ "hours": 77.83,
+ "finished": 1794226220.2581406
+}

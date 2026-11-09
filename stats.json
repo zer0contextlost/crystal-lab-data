@@ -1,35 +1,35 @@
 {
- "built": "2026-11-08",
- "structures": 5823,
- "catalogued": 888,
+ "built": "2026-11-09",
+ "structures": 5832,
+ "catalogued": 894,
  "ml_verdicts": {
   "borderline": 776,
   "falls apart": 183,
-  "plausible": 1304,
-  "rock solid": 1458,
-  "unstable": 2102
+  "plausible": 1307,
+  "rock solid": 1462,
+  "unstable": 2104
  },
  "novelty": {
-  "skipped": 3061,
+  "skipped": 3063,
   "known": 977,
-  "new composition": 888,
-  "known composition": 892,
+  "new composition": 894,
+  "known composition": 893,
   "rediscovered": 5
  },
- "ml_hull_done": 594,
+ "ml_hull_done": 620,
  "ml_hull_at_or_below_0": 1,
- "dft_jobs": 10,
- "dft_pass": 2,
+ "dft_jobs": 12,
+ "dft_pass": 3,
  "dft_fail": 2,
  "by_prompt_mode": {
   "surprise (before 11-01)": {
    "structures": 1681,
    "new": 101,
-   "dft_pass": 2,
+   "dft_pass": 3,
    "known_skipped": 0,
-   "hull_checked": 63,
+   "hull_checked": 66,
    "median_e_hull": 0.117,
-   "within_0_05": 10
+   "within_0_05": 11
   },
   "human": {
    "structures": 10,
@@ -45,39 +45,39 @@
    "new": 696,
    "dft_pass": 0,
    "known_skipped": 0,
-   "hull_checked": 477,
-   "median_e_hull": 0.393,
+   "hull_checked": 486,
+   "median_e_hull": 0.39,
    "within_0_05": 0
   },
   "surprise": {
-   "structures": 61,
-   "new": 7,
+   "structures": 62,
+   "new": 8,
    "dft_pass": 0,
-   "known_skipped": 141,
-   "hull_checked": 1,
-   "median_e_hull": 0.052,
+   "known_skipped": 148,
+   "hull_checked": 2,
+   "median_e_hull": 0.158,
    "within_0_05": 0
   },
   "random": {
-   "structures": 76,
-   "new": 20,
+   "structures": 78,
+   "new": 21,
    "dft_pass": 0,
-   "known_skipped": 84,
-   "hull_checked": 8,
-   "median_e_hull": 0.409,
+   "known_skipped": 93,
+   "hull_checked": 12,
+   "median_e_hull": 0.407,
    "within_0_05": 0
   },
   "substitution": {
-   "structures": 256,
-   "new": 64,
+   "structures": 261,
+   "new": 68,
    "dft_pass": 0,
-   "known_skipped": 185,
-   "hull_checked": 45,
-   "median_e_hull": 0.211,
+   "known_skipped": 195,
+   "hull_checked": 54,
+   "median_e_hull": 0.216,
    "within_0_05": 1
   },
   "control": {
-   "structures": 26,
+   "structures": 27,
    "new": 0,
    "dft_pass": 0,
    "known_skipped": 0,
