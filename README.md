@@ -8,7 +8,26 @@ open record of what happens when you do check: most candidates that look stable 
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
 Built 2026-11-10. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
-raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g)).
+raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g))
+and all #2571 BaCdGePd2 runs ([upload of 2026-11-10](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=7-krAnoRQlyS_2i0FVfjIw)).
+
+**Cite:** the three NOMAD uploads (102 calculations) form a frozen snapshot with DOI
+[10.17172/nomad.5gmq-24hf](https://doi.org/10.17172/nomad.5gmq-24hf). This repository keeps changing; the DOI does not.
+
+## 2026-11-10: first candidate through every check
+**#2571 BaCdGePd2** (P4/nmm, generated 2026-10-03 from a `surprise` prompt, where the model picks the formula itself) is the first candidate to
+pass every step we run:
+- DFT (PBE): 0.003 eV/atom above the hull built from 1,281 Alexandria entries in Ba-Cd-Ge-Pd; the nearest
+  competing mix is BaGePd + CdPd. That is inside normal PBE error, so read it as "on the hull, within noise",
+  not "stable".
+- Phonons: no imaginary modes (2x2x1 supercell, 40 atoms, 10 displacements, 78 h).
+- Prior art: no report of the composition in 27 databases and paper indexes that answered on 2026-11-10
+  (AFLOW, CMR, MPDD, MPOD and Matterverse did not respond).
+
+What this does not show: that BaCdGePd2 can be made, that this is its lowest-energy structure (only the
+generated structure was tested), or anything about behaviour above 0 K. It is a prediction worth a synthesis
+attempt, nothing more. #1856 SrCaCdP2 also passed DFT and phonons, but OQMD, GNoME and NOMAD already list it,
+so it is an independent check of an existing prediction.
 
 ## 2026-11-03: stricter novelty rule
 A candidate now counts as new only if its **composition** has not been reported anywhere we check, in any
@@ -27,7 +46,7 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 |---|---|
 | Structures generated | 5837 |
 | Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 895 |
-| ML hull check finished | 639 |
+| ML hull check finished | 644 |
 | ML hull check at or below 0 eV/atom | 1 |
 | DFT jobs (passes / fails / still running or queued) | 12 (3 / 2 / 7) |
 
@@ -40,9 +59,9 @@ New rows need a few nights of hull checks before their numbers mean much.
 
 | prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
 |---|---|---|---|---|---|---|---|
-| random formula (before 11-01) | 0 | 3713 | 696 | 490 | 0.39 | 1 | 0 |
+| random formula (before 11-01) | 0 | 3713 | 696 | 494 | 0.389 | 1 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 71 | 0.115 | 13 | 3 |
-| substitution | 199 | 265 | 69 | 60 | 0.216 | 2 | 0 |
+| substitution | 199 | 265 | 69 | 61 | 0.211 | 2 | 0 |
 | random | 93 | 78 | 21 | 14 | 0.407 | 0 | 0 |
 | surprise | 148 | 63 | 8 | 4 | 0.158 | 0 | 0 |
 | control | 0 | 27 | 0 | 0 | - | 0 | 0 |

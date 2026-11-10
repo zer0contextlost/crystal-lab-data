@@ -16,7 +16,7 @@
   "known composition": 893,
   "rediscovered": 5
  },
- "ml_hull_done": 639,
+ "ml_hull_done": 644,
  "ml_hull_at_or_below_0": 1,
  "dft_jobs": 12,
  "dft_pass": 3,
@@ -45,8 +45,8 @@
    "new": 696,
    "dft_pass": 0,
    "known_skipped": 0,
-   "hull_checked": 490,
-   "median_e_hull": 0.39,
+   "hull_checked": 494,
+   "median_e_hull": 0.389,
    "within_0_05": 1
   },
   "surprise": {
@@ -72,8 +72,8 @@
    "new": 69,
    "dft_pass": 0,
    "known_skipped": 199,
-   "hull_checked": 60,
-   "median_e_hull": 0.216,
+   "hull_checked": 61,
+   "median_e_hull": 0.211,
    "within_0_05": 2
   },
   "control": {
