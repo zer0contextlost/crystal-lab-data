@@ -7,7 +7,7 @@ AI generators now propose crystals much faster than anyone checks them with phys
 open record of what happens when you do check: most candidates that look stable to a machine-learned model turn
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
-Built 2026-11-11. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
+Built 2026-11-12. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
 raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g))
 and all #2571 BaCdGePd2 runs ([upload of 2026-11-10](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=7-krAnoRQlyS_2i0FVfjIw)).
 
@@ -44,9 +44,9 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 
 | | count |
 |---|---|
-| Structures generated | 5871 |
-| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 905 |
-| ML hull check finished | 654 |
+| Structures generated | 5873 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 906 |
+| ML hull check finished | 670 |
 | ML hull check at or below 0 eV/atom | 1 |
 | DFT jobs (passes / fails / still running or queued) | 12 (3 / 2 / 7) |
 
@@ -59,16 +59,16 @@ New rows need a few nights of hull checks before their numbers mean much.
 
 | prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
 |---|---|---|---|---|---|---|---|
-| random formula (before 11-01) | 0 | 3713 | 696 | 494 | 0.389 | 1 | 0 |
+| random formula (before 11-01) | 0 | 3713 | 696 | 508 | 0.39 | 1 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 71 | 0.115 | 13 | 3 |
-| substitution | 219 | 287 | 74 | 67 | 0.216 | 2 | 0 |
-| random | 113 | 87 | 24 | 16 | 0.318 | 1 | 0 |
+| substitution | 220 | 289 | 75 | 68 | 0.216 | 2 | 0 |
+| random | 113 | 87 | 24 | 17 | 0.289 | 2 | 0 |
 | surprise | 165 | 65 | 10 | 6 | 0.137 | 1 | 0 |
 | control | 0 | 28 | 0 | 0 | - | 0 | 0 |
 | human | 0 | 10 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2120, rock solid 1476, plausible 1310, borderline 780, falls apart 185.
-Novelty at generation time: skipped 3085, known 978, new composition 905, known composition 898, rediscovered 5.
+ML verdicts: unstable 2121, rock solid 1477, plausible 1310, borderline 780, falls apart 185.
+Novelty at generation time: skipped 3086, known 978, new composition 906, known composition 898, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
