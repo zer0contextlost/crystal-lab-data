@@ -1,0 +1,75 @@
+{
+ "formula": "LaNd2(GeRh)4",
+ "e_hull_dft": 0.0173,
+ "electronic": {
+  "natoms": 22,
+  "magnetic": null,
+  "magnetism_note": "not tested (no Fe/Co/Ni/Mn/Cr; treated as non-magnetic)",
+  "fermi_eV": 15.041569268247196,
+  "metal": true,
+  "pbe_gap_eV": 0.0,
+  "dos_at_EF_states_eV_atom": 4.4072,
+  "hours": 12.32
+ },
+ "elastic": {
+  "C_GPa": [
+   [
+    120.7,
+    87.2,
+    76.9,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    87.2,
+    176.5,
+    109.6,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    76.9,
+    109.6,
+    178.5,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    16.9,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    37.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    55.4
+   ]
+  ],
+  "born_stable": true,
+  "bulk_modulus_GPa": 109.6,
+  "shear_modulus_GPa": 32.7,
+  "youngs_modulus_GPa": 89.1,
+  "poisson": 0.364,
+  "pugh_B_over_G": 3.36,
+  "ductile": true,
+  "vickers_hardness_GPa_chen": 0.7,
+  "hours": 94.39
+ }
+}

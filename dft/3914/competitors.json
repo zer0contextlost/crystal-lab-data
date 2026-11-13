@@ -1,0 +1,18 @@
+{
+ "formula": "Cs3RbAs4",
+ "nsites": 8,
+ "decomposition": [
+  {
+   "id": "agm003219892",
+   "formula": "RbAs",
+   "frac": 0.25,
+   "nsites": 16
+  },
+  {
+   "id": "agm004468642",
+   "formula": "CsAs",
+   "frac": 0.75,
+   "nsites": 16
+  }
+ ]
+}

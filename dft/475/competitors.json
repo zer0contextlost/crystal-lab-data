@@ -1,0 +1,24 @@
+{
+ "formula": "Li4Zn2HgPd",
+ "nsites": 8,
+ "decomposition": [
+  {
+   "id": "agm003173037",
+   "formula": "LiZn",
+   "frac": 0.125,
+   "nsites": 4
+  },
+  {
+   "id": "agm003200982",
+   "formula": "Li2Hg",
+   "frac": 0.375,
+   "nsites": 6
+  },
+  {
+   "id": "agm009744993",
+   "formula": "Li3Zn3Pd2",
+   "frac": 0.5,
+   "nsites": 8
+  }
+ ]
+}

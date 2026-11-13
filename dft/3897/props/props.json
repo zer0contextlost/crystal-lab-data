@@ -1,0 +1,76 @@
+{
+ "formula": "Li2Sc2CuSn2Rh",
+ "e_hull_dft": -0.0129,
+ "electronic": {
+  "natoms": 8,
+  "magnetic": null,
+  "magnetism_note": "not tested (no Fe/Co/Ni/Mn/Cr; treated as non-magnetic)",
+  "fermi_eV": 12.633152174188139,
+  "metal": false,
+  "pbe_gap_eV": 0.051,
+  "pbe_direct_gap_eV": 0.342,
+  "dos_at_EF_states_eV_atom": 0.0003,
+  "hours": 0.51
+ },
+ "elastic": {
+  "C_GPa": [
+   [
+    178.6,
+    28.5,
+    69.7,
+    0.0,
+    -0.0,
+    -1.2
+   ],
+   [
+    28.5,
+    178.7,
+    69.8,
+    0.0,
+    -0.0,
+    -1.2
+   ],
+   [
+    69.7,
+    69.8,
+    139.3,
+    0.0,
+    -0.0,
+    -1.2
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    78.0,
+    0.0,
+    0.0
+   ],
+   [
+    -0.0,
+    -0.0,
+    -0.0,
+    0.0,
+    78.0,
+    0.0
+   ],
+   [
+    -1.2,
+    -1.2,
+    -1.2,
+    0.0,
+    0.0,
+    32.9
+   ]
+  ],
+  "born_stable": true,
+  "bulk_modulus_GPa": 92.5,
+  "shear_modulus_GPa": 55.3,
+  "youngs_modulus_GPa": 138.2,
+  "poisson": 0.251,
+  "pugh_B_over_G": 1.67,
+  "ductile": false,
+  "vickers_hardness_GPa_chen": 8.4,
+  "hours": 1.9
+ }
+}

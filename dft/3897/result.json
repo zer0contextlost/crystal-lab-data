@@ -1,0 +1,15 @@
+{
+ "lab_id": 3897,
+ "formula": "Li2Sc2CuSn2Rh",
+ "name": "Scandostannite",
+ "mace_e_hull": 0.011661619033366932,
+ "finished": 1794559296.1655726,
+ "vs": {
+  "LiScSnRh": 0.3,
+  "ScCuSn": 0.375,
+  "Li7Sn2": 0.225,
+  "ScRh": 0.1
+ },
+ "e_hull_dft": -0.0129,
+ "status": "pass"
+}
