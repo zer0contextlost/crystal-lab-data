@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cs3RbAs4
+_chemical_formula_sum              "Cs3 Rb1 As4"
+_cell_length_a       6.94849723314279
+_cell_length_b       4.297620907
+_cell_length_c       10.375944841649838
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.28775847075698
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cs  Cs1       1.0  0.09565622479676174  0.4999999999767313  0.3179652084697202  1.0000
+  Cs  Cs2       1.0  0.4023600832753899  0.4999999999767313  0.8176503719526264  1.0000
+  Cs  Cs3       1.0  0.9033138090037107  0.0  0.6778701906695794  1.0000
+  Rb  Rb1       1.0  0.6002862253696966  0.0  0.18083249078396352  1.0000
+  As  As1       1.0  0.08596352179554365  0.0  0.025980076397191645  1.0000
+  As  As2       1.0  0.4139564876653018  0.0  0.5224254885971784  1.0000
+  As  As3       1.0  0.5911182976815686  0.4999999999767313  0.4640522154713996  1.0000
+  As  As4       1.0  0.9040453605126498  0.4999999999767313  0.9760239476410031  1.0000

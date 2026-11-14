@@ -1,0 +1,14 @@
+{
+ "lab_id": 475,
+ "formula": "Li4Zn2HgPd",
+ "name": "Zincolithite",
+ "mace_e_hull": 0.017334592188607445,
+ "finished": 1794606343.9211907,
+ "vs": {
+  "LiZn": 0.125,
+  "Li2Hg": 0.375,
+  "Li3Zn3Pd2": 0.5
+ },
+ "e_hull_dft": 0.0152,
+ "status": "pass"
+}

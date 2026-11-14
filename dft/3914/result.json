@@ -1,0 +1,13 @@
+{
+ "lab_id": 3914,
+ "formula": "Cs3RbAs4",
+ "name": "Delta-caesarsenide",
+ "mace_e_hull": 0.008195190883570014,
+ "finished": 1794594675.492586,
+ "vs": {
+  "RbAs": 0.25,
+  "CsAs": 0.75
+ },
+ "e_hull_dft": 0.0524,
+ "status": "fail"
+}

@@ -1,0 +1,12 @@
+{
+ "lab_id": 5426,
+ "formula": "Cs2Hg3O4",
+ "name": "Mercuroxite",
+ "mace_e_hull": 0.015780074314688974,
+ "finished": 1794590304.4991815,
+ "vs": {
+  "Cs2HgO2": 0.5556,
+  "HgO": 0.4444
+ },
+ "status": "failed"
+}

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hg2Li4
+_chemical_formula_sum              "Hg2 Li4"
+_cell_length_a       6.780625646602535
+_cell_length_b       6.780626802800829
+_cell_length_c       4.332128543
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    147.4911641230105
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.09679889039264855  0.9031998124167269  0.24999999998845834  1.0000
+  Hg  Hg2       1.0  0.903201109501023  0.0968001875795824  0.7499999999884585  1.0000
+  Li  Li1       1.0  0.4258668384957581  0.5741331942224285  0.24999999998845834  1.0000
+  Li  Li2       1.0  0.5741331614740013  0.4258668058298084  0.7499999999884585  1.0000
+  Li  Li3       1.0  0.753184007317404  0.24681577585730702  0.24999999998845834  1.0000
+  Li  Li4       1.0  0.24681599259912174  0.7531842241664388  0.7499999999884585  1.0000

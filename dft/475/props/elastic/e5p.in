@@ -1,0 +1,57 @@
+&CONTROL
+   calculation      = 'relax'
+   nstep            = 60
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/475/props/elastic/tmp'
+   prefix           = 'p'
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 50.0
+   ecutrho          = 320.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   ntyp             = 4
+   nat              = 8
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-08
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Li 6.94 li_pbe_v1.4.uspp.F.UPF
+Zn 65.38 Zn_pbe_v1.uspp.F.UPF
+Hg 200.592 Hg_ONCV_PBE-1.0.oncvpsp.upf
+Pd 106.42 Pd_ONCV_PBE-1.0.oncvpsp.upf
+
+K_POINTS automatic
+5 5 4  0 0 0
+
+CELL_PARAMETERS angstrom
+4.38328000800000 0.02191640004000 0.00000000000000
+0.02191640004000 4.38328000800000 0.00000000000000
+0.00000000000000 0.00000000000000 6.40484430000000
+
+ATOMIC_POSITIONS angstrom
+Li 2.1916400042 0.0109582000 1.5153889371  
+Li 0.0109582000 2.1916400042 4.8894553629  
+Li 0.0000000000 0.0000000000 3.2024221500  
+Li 2.2025982042 2.2025982042 0.0000000000  
+Zn 2.1916400042 0.0109582000 4.9063521443  
+Zn 0.0109582000 2.1916400042 1.4984921557  
+Hg 2.2025982042 2.2025982042 3.2024221500  
+Pd 0.0000000000 0.0000000000 0.0000000000  
+
