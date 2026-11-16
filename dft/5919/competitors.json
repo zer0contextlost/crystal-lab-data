@@ -1,0 +1,24 @@
+{
+ "formula": "Sc10Si6Se",
+ "nsites": 17,
+ "decomposition": [
+  {
+   "id": "agm005754489",
+   "formula": "Sc2SiSe",
+   "frac": 0.2353,
+   "nsites": 8
+  },
+  {
+   "id": "agm003220537",
+   "formula": "Sc5Si3",
+   "frac": 0.7059,
+   "nsites": 16
+  },
+  {
+   "id": "agm002317720",
+   "formula": "ScSi",
+   "frac": 0.0588,
+   "nsites": 4
+  }
+ ]
+}

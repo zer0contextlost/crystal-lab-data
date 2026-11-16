@@ -1,0 +1,14 @@
+{
+ "lab_id": 5919,
+ "formula": "Sc10Si6Se",
+ "name": "Silicoscandite",
+ "mace_e_hull": 0.010928339724467051,
+ "finished": 1794830719.9954705,
+ "vs": {
+  "Sc2SiSe": 0.2353,
+  "Sc5Si3": 0.7059,
+  "ScSi": 0.0588
+ },
+ "e_hull_dft": 0.0257,
+ "status": "fail"
+}

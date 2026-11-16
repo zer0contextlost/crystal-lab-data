@@ -1,26 +1,26 @@
 {
- "built": "2026-11-15",
- "structures": 5965,
- "catalogued": 935,
+ "built": "2026-11-16",
+ "structures": 6003,
+ "catalogued": 949,
  "ml_verdicts": {
-  "borderline": 790,
+  "borderline": 792,
   "falls apart": 191,
-  "plausible": 1324,
-  "rock solid": 1512,
-  "unstable": 2148
+  "plausible": 1331,
+  "rock solid": 1532,
+  "unstable": 2157
  },
  "novelty": {
-  "skipped": 3129,
-  "known": 984,
-  "new composition": 935,
-  "known composition": 912,
+  "skipped": 3140,
+  "known": 987,
+  "new composition": 949,
+  "known composition": 922,
   "rediscovered": 5
  },
- "ml_hull_done": 733,
+ "ml_hull_done": 759,
  "ml_hull_at_or_below_0": 1,
- "dft_jobs": 14,
+ "dft_jobs": 15,
  "dft_pass": 5,
- "dft_fail": 3,
+ "dft_fail": 4,
  "by_prompt_mode": {
   "surprise (before 11-01)": {
    "structures": 1681,
@@ -50,34 +50,34 @@
    "within_0_05": 1
   },
   "surprise": {
-   "structures": 71,
-   "new": 14,
+   "structures": 72,
+   "new": 15,
    "dft_pass": 0,
-   "known_skipped": 230,
-   "hull_checked": 8,
-   "median_e_hull": 0.137,
+   "known_skipped": 257,
+   "hull_checked": 9,
+   "median_e_hull": 0.062,
    "within_0_05": 1
   },
   "random": {
-   "structures": 101,
-   "new": 29,
+   "structures": 106,
+   "new": 31,
    "dft_pass": 0,
-   "known_skipped": 135,
-   "hull_checked": 19,
-   "median_e_hull": 0.289,
+   "known_skipped": 143,
+   "hull_checked": 22,
+   "median_e_hull": 0.318,
    "within_0_05": 2
   },
   "substitution": {
-   "structures": 349,
-   "new": 95,
+   "structures": 376,
+   "new": 106,
    "dft_pass": 0,
-   "known_skipped": 280,
-   "hull_checked": 77,
-   "median_e_hull": 0.216,
-   "within_0_05": 2
+   "known_skipped": 315,
+   "hull_checked": 99,
+   "median_e_hull": 0.209,
+   "within_0_05": 3
   },
   "control": {
-   "structures": 40,
+   "structures": 45,
    "new": 0,
    "dft_pass": 0,
    "known_skipped": 0,

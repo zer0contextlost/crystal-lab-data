@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Sc4Si2Se2
+_chemical_formula_sum              "Sc4 Si2 Se2"
+_cell_length_a       3.74556718
+_cell_length_b       3.899651699
+_cell_length_c       10.74059522674638
+_cell_angle_alpha    100.45935639575762
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.7500000000533965  0.6689111337936535  0.33782326751566255  1.0000
+  Sc  Sc2       1.0  0.25000000002669825  0.331088866334563  0.6621767324843374  1.0000
+  Sc  Sc3       1.0  0.7500000000533965  0.936660257164912  0.8733205141075517  1.0000
+  Sc  Sc4       1.0  0.25000000002669825  0.06333974294712923  0.12667948591138373  1.0000
+  Si  Si1       1.0  0.25000000002669825  0.4605788637094984  0.9211577271339461  1.0000
+  Si  Si2       1.0  0.7500000000533965  0.5394211363978088  0.07884227287552167  1.0000
+  Se  Se1       1.0  0.25000000002669825  0.19206552041030253  0.38413205078478285  1.0000
+  Se  Se2       1.0  0.7500000000533965  0.807934479722648  0.6158679492246849  1.0000

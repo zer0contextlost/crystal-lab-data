@@ -13,3 +13,4 @@ lab_id,formula,dft_status,e_hull_dft_eV_atom,decomposes_to,pbe_gap_eV,metal,phon
 3914,Cs3RbAs4,fail,0.0524,"{""RbAs"": 0.25, ""CsAs"": 0.75}",,,,,2026-11-13T18:31:15Z,
 4665,KTlAgCl3,withdrawn,,,,,,Alexandria PBE:agm005026840; nmd/nmd:RwiHcKfUTBNE_JdvaKRBR75M_QH4|VGtU-RtoJB-3yf3PPSXgme9MdsAO|ZINukU2EdbjyliSyHzLxV5RWLrUL|jXVPbCVeYg0ZYR9dfXPHRjo041CU,,"already reported: Alexandria PBE (1), NOMAD (4); held 2026-11-03 before start, see priorart/4665.json"
 5426,Cs2Hg3O4,failed,,"{""Cs2HgO2"": 0.5556, ""HgO"": 0.4444}",,,,,2026-11-13T17:18:24Z,
+5919,Sc10Si6Se,fail,0.0257,"{""Sc2SiSe"": 0.2353, ""Sc5Si3"": 0.7059, ""ScSi"": 0.0588}",,,,,2026-11-16T12:05:19Z,
