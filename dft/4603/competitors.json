@@ -1,0 +1,30 @@
+{
+ "formula": "SrMg2AlGa",
+ "nsites": 10,
+ "decomposition": [
+  {
+   "id": "agm005004467",
+   "formula": "SrMgAl2Ga",
+   "frac": 0.2834,
+   "nsites": 5
+  },
+  {
+   "id": "agm005529520",
+   "formula": "Sr2Mg17",
+   "frac": 0.2235,
+   "nsites": 19
+  },
+  {
+   "id": "agm002159694",
+   "formula": "Sr(MgGa)2",
+   "frac": 0.3583,
+   "nsites": 5
+  },
+  {
+   "id": "agm003216315",
+   "formula": "Sr5Al9",
+   "frac": 0.1348,
+   "nsites": 14
+  }
+ ]
+}

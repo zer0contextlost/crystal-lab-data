@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Ce3Mg3Tl2Cd
+_chemical_formula_sum              "Ce3 Mg3 Tl2 Cd1"
+_cell_length_a       7.647153375
+_cell_length_b       7.64715337578182
+_cell_length_c       4.786144444
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0000000009438
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ce  Ce1       1.0  9.341866148002026e-12  0.42688294784148934  0.5  1.0000
+  Ce  Ce2       1.0  0.5731170521884676  0.5731170521283112  0.5  1.0000
+  Ce  Ce3       1.0  0.4268829478786281  0.0  0.5  1.0000
+  Mg  Mg1       1.0  0.7630661582356454  0.0  0.0  1.0000
+  Mg  Mg2       1.0  0.23693384185022207  0.2369338418135689  0.0  1.0000
+  Mg  Mg3       1.0  8.210743196457315e-11  0.7630661581562315  0.0  1.0000
+  Tl  Tl1       1.0  0.3333333300219448  0.6666666699735104  0.0  1.0000
+  Tl  Tl2       1.0  0.6666666700544928  0.33333332999629  0.0  1.0000
+  Cd  Cd1       1.0  0.0  0.0  0.5  1.0000

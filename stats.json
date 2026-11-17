@@ -1,24 +1,24 @@
 {
- "built": "2026-11-16",
- "structures": 6003,
- "catalogued": 949,
+ "built": "2026-11-17",
+ "structures": 6013,
+ "catalogued": 953,
  "ml_verdicts": {
   "borderline": 792,
   "falls apart": 191,
-  "plausible": 1331,
-  "rock solid": 1532,
-  "unstable": 2157
+  "plausible": 1332,
+  "rock solid": 1537,
+  "unstable": 2161
  },
  "novelty": {
-  "skipped": 3140,
+  "skipped": 3144,
   "known": 987,
-  "new composition": 949,
-  "known composition": 922,
+  "new composition": 953,
+  "known composition": 924,
   "rediscovered": 5
  },
- "ml_hull_done": 759,
+ "ml_hull_done": 799,
  "ml_hull_at_or_below_0": 1,
- "dft_jobs": 15,
+ "dft_jobs": 17,
  "dft_pass": 5,
  "dft_fail": 4,
  "by_prompt_mode": {
@@ -27,9 +27,9 @@
    "new": 101,
    "dft_pass": 5,
    "known_skipped": 0,
-   "hull_checked": 75,
+   "hull_checked": 84,
    "median_e_hull": 0.113,
-   "within_0_05": 15
+   "within_0_05": 17
   },
   "human": {
    "structures": 10,
@@ -45,39 +45,39 @@
    "new": 696,
    "dft_pass": 0,
    "known_skipped": 0,
-   "hull_checked": 554,
-   "median_e_hull": 0.393,
+   "hull_checked": 580,
+   "median_e_hull": 0.395,
    "within_0_05": 1
   },
   "surprise": {
    "structures": 72,
    "new": 15,
    "dft_pass": 0,
-   "known_skipped": 257,
-   "hull_checked": 9,
-   "median_e_hull": 0.062,
+   "known_skipped": 259,
+   "hull_checked": 10,
+   "median_e_hull": 0.125,
    "within_0_05": 1
   },
   "random": {
-   "structures": 106,
-   "new": 31,
+   "structures": 110,
+   "new": 32,
    "dft_pass": 0,
-   "known_skipped": 143,
-   "hull_checked": 22,
+   "known_skipped": 147,
+   "hull_checked": 23,
    "median_e_hull": 0.318,
    "within_0_05": 2
   },
   "substitution": {
-   "structures": 376,
-   "new": 106,
+   "structures": 381,
+   "new": 109,
    "dft_pass": 0,
-   "known_skipped": 315,
-   "hull_checked": 99,
-   "median_e_hull": 0.209,
+   "known_skipped": 316,
+   "hull_checked": 102,
+   "median_e_hull": 0.216,
    "within_0_05": 3
   },
   "control": {
-   "structures": 45,
+   "structures": 46,
    "new": 0,
    "dft_pass": 0,
    "known_skipped": 0,

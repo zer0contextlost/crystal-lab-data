@@ -1,0 +1,24 @@
+{
+ "formula": "LaCe2Mg3Tl2Cd",
+ "nsites": 18,
+ "decomposition": [
+  {
+   "id": "agm034408650",
+   "formula": "Ce3Mg3Tl2Cd",
+   "frac": 0.5,
+   "nsites": 9
+  },
+  {
+   "id": "agm060526094",
+   "formula": "CeMgCd",
+   "frac": 0.1667,
+   "nsites": 6
+  },
+  {
+   "id": "agm003267842",
+   "formula": "LaMgTl",
+   "frac": 0.3333,
+   "nsites": 9
+  }
+ ]
+}
