@@ -1,0 +1,14 @@
+{
+ "lab_id": 3576,
+ "formula": "LaCe2Mg3Tl2Cd",
+ "name": "Thallomagnesite",
+ "mace_e_hull": 0.010200235694997062,
+ "finished": 1795007134.7068906,
+ "vs": {
+  "Ce3Mg3Tl2Cd": 0.5,
+  "CeMgCd": 0.1667,
+  "LaMgTl": 0.3333
+ },
+ "e_hull_dft": -0.0058,
+ "status": "pass"
+}

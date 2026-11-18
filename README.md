@@ -7,7 +7,7 @@ AI generators now propose crystals much faster than anyone checks them with phys
 open record of what happens when you do check: most candidates that look stable to a machine-learned model turn
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
-Built 2026-11-17. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
+Built 2026-11-18. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
 raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g))
 and all #2571 BaCdGePd2 runs ([upload of 2026-11-10](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=7-krAnoRQlyS_2i0FVfjIw)).
 
@@ -44,11 +44,11 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 
 | | count |
 |---|---|
-| Structures generated | 6041 |
-| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 962 |
-| ML hull check finished | 799 |
+| Structures generated | 6074 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 977 |
+| ML hull check finished | 804 |
 | ML hull check at or below 0 eV/atom | 1 |
-| DFT jobs (passes / fails / still running or queued) | 17 (5 / 4 / 8) |
+| DFT jobs (passes / fails / still running or queued) | 17 (6 / 4 / 7) |
 
 ### How the prompts were chosen, and how each way does
 On 2026-11-01 the autopilot switched from random formulas to mostly substitution-based prompts (see METHODS.md).
@@ -60,15 +60,15 @@ New rows need a few nights of hull checks before their numbers mean much.
 | prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
 |---|---|---|---|---|---|---|---|
 | random formula (before 11-01) | 0 | 3713 | 696 | 580 | 0.395 | 1 | 0 |
-| surprise (before 11-01) | 0 | 1681 | 101 | 84 | 0.113 | 17 | 5 |
-| substitution | 348 | 403 | 116 | 102 | 0.216 | 3 | 0 |
-| random | 159 | 115 | 34 | 23 | 0.318 | 2 | 0 |
-| surprise | 271 | 73 | 15 | 10 | 0.125 | 1 | 0 |
-| control | 0 | 46 | 0 | 0 | - | 0 | 0 |
+| surprise (before 11-01) | 0 | 1681 | 101 | 84 | 0.113 | 17 | 6 |
+| substitution | 361 | 422 | 124 | 106 | 0.216 | 3 | 0 |
+| random | 177 | 124 | 37 | 24 | 0.318 | 2 | 0 |
+| surprise | 291 | 77 | 19 | 10 | 0.125 | 1 | 0 |
+| control | 0 | 47 | 0 | 0 | - | 0 | 0 |
 | human | 0 | 10 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2170, rock solid 1549, plausible 1337, borderline 794, falls apart 191.
-Novelty at generation time: skipped 3155, known 987, new composition 962, known composition 932, rediscovered 5.
+ML verdicts: unstable 2182, rock solid 1563, plausible 1341, borderline 795, falls apart 193.
+Novelty at generation time: skipped 3170, known 988, new composition 977, known composition 934, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
