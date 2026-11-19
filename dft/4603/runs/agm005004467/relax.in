@@ -1,0 +1,57 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   nstep            = 150
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '/opt/dft/jobs/4603/runs/agm005004467/tmp'
+   prefix           = 'relax'
+   etot_conv_thr    = 1e-05
+   forc_conv_thr    = 0.001
+   disk_io          = 'low'
+   pseudo_dir       = '/opt/dft/sssp'
+/
+&SYSTEM
+   ecutwfc          = 70.0
+   ecutrho          = 560.0
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'mv'
+   ntyp             = 4
+   nat              = 5
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-07
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+   press_conv_thr   = 0.5
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Sr 87.62 Sr_pbe_v1.uspp.F.UPF
+Mg 24.305 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+Al 26.9815385 Al.pbe-n-kjpaw_psl.1.0.0.UPF
+Ga 69.723 Ga.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+4 4 3  0 0 0
+
+CELL_PARAMETERS angstrom
+4.45511293000000 0.00000000000000 0.00000000000000
+0.00000000000000 4.45361171000000 0.00000000000000
+-2.22755646983600 -2.22674587885352 5.82168769394928
+
+ATOMIC_POSITIONS angstrom
+Sr 0.0000000180 -0.0000528327 5.1279608923  
+Mg -0.0000000019 2.2266194047 2.2717338488  
+Al 2.2275564631 -0.0000749296 2.2503450847  
+Al 0.0000000218 0.0002490873 0.6070693502  
+Ga 2.2275564395 2.2270164015 3.8562916919  
+

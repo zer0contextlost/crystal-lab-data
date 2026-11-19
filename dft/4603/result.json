@@ -1,0 +1,15 @@
+{
+ "lab_id": 4603,
+ "formula": "SrMg2AlGa",
+ "name": "Strontomagnesite",
+ "mace_e_hull": 0.006225678095704179,
+ "finished": 1795049880.553874,
+ "vs": {
+  "SrMgAl2Ga": 0.2834,
+  "Sr2Mg17": 0.2235,
+  "Sr(MgGa)2": 0.3583,
+  "Sr5Al9": 0.1348
+ },
+ "e_hull_dft": 0.0164,
+ "status": "pass"
+}

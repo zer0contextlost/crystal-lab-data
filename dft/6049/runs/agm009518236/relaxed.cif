@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Li3Mg2Cd2
+_chemical_formula_sum              "Li3 Mg2 Cd2"
+_cell_length_a       7.423023137591013
+_cell_length_b       7.423021251592668
+_cell_length_c       7.423017625773153
+_cell_angle_alpha    37.664678919141785
+_cell_angle_beta     37.66472147998992
+_cell_angle_gamma    37.66472710836687
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.0  0.0  0.0  1.0000
+  Li  Li2       1.0  0.8581389368234892  0.8581376802053935  0.8581374136373682  1.0000
+  Li  Li3       1.0  0.14186106324821815  0.14186231983831568  0.1418625863134256  1.0000
+  Mg  Mg1       1.0  0.7131400137048645  0.7131413719543896  0.7131426122736974  1.0000
+  Mg  Mg2       1.0  0.286859986335913  0.28685862811137824  0.28685738767710317  1.0000
+  Cd  Cd1       1.0  0.5694504584301945  0.569441862869114  0.5694337521875859  1.0000
+  Cd  Cd2       1.0  0.4305495416132146  0.43055813718578834  0.43056624778778063  1.0000

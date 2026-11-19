@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       SrMgAl2Ga
+_chemical_formula_sum              "Sr1 Mg1 Al2 Ga1"
+_cell_length_a       4.436843676
+_cell_length_b       4.4417473357910895
+_cell_length_c       6.651597239337756
+_cell_angle_alpha    109.43427952844723
+_cell_angle_beta     109.4823926180849
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.4405683340649918  0.44085613682291175  0.8811366580752308  1.0000
+  Mg  Mg1       1.0  0.19516565127341623  0.6952038499577428  0.39033130252354725  1.0000
+  Al  Al1       1.0  0.6933092987474803  0.19282270617822428  0.386618597480043  1.0000
+  Al  Al2       1.0  0.05208055364608869  0.05299135740722687  0.10416109727568498  1.0000
+  Ga  Ga1       1.0  0.8310161522750309  0.8302659395163485  0.6620323145075181  1.0000

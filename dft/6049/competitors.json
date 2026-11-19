@@ -1,0 +1,24 @@
+{
+ "formula": "Li4Mg2CdHg",
+ "nsites": 8,
+ "decomposition": [
+  {
+   "id": "agm009518236",
+   "formula": "Li3(MgCd)2",
+   "frac": 0.4375,
+   "nsites": 7
+  },
+  {
+   "id": "agm014885175",
+   "formula": "Li2Mg2Hg",
+   "frac": 0.3125,
+   "nsites": 5
+  },
+  {
+   "id": "agm001282740",
+   "formula": "Li3Hg",
+   "frac": 0.25,
+   "nsites": 4
+  }
+ ]
+}

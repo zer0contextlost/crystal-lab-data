@@ -1,0 +1,14 @@
+{
+ "lab_id": 6049,
+ "formula": "Li4Mg2CdHg",
+ "name": "Beta-magnesolithite",
+ "mace_e_hull": 0.0014044351874515915,
+ "finished": 1795100214.4495144,
+ "vs": {
+  "Li3(MgCd)2": 0.4375,
+  "Li2Mg2Hg": 0.3125,
+  "Li3Hg": 0.25
+ },
+ "e_hull_dft": 0.0027,
+ "status": "pass"
+}
