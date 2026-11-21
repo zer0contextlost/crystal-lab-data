@@ -1,0 +1,18 @@
+{
+ "formula": "Tb3Mg3AgAu2",
+ "nsites": 9,
+ "decomposition": [
+  {
+   "id": "agm002221332",
+   "formula": "TbMgAu",
+   "frac": 0.6667,
+   "nsites": 9
+  },
+  {
+   "id": "agm002160109",
+   "formula": "TbMgAg",
+   "frac": 0.3333,
+   "nsites": 9
+  }
+ ]
+}

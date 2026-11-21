@@ -1,24 +1,24 @@
 {
- "built": "2026-11-20",
- "structures": 6079,
- "catalogued": 980,
+ "built": "2026-11-21",
+ "structures": 6133,
+ "catalogued": 999,
  "ml_verdicts": {
-  "borderline": 795,
-  "falls apart": 193,
-  "plausible": 1341,
-  "rock solid": 1566,
-  "unstable": 2184
+  "borderline": 798,
+  "falls apart": 197,
+  "plausible": 1348,
+  "rock solid": 1590,
+  "unstable": 2200
  },
  "novelty": {
-  "skipped": 3172,
-  "known": 988,
-  "new composition": 980,
-  "known composition": 934,
+  "skipped": 3195,
+  "known": 991,
+  "new composition": 999,
+  "known composition": 943,
   "rediscovered": 5
  },
- "ml_hull_done": 881,
- "ml_hull_at_or_below_0": 1,
- "dft_jobs": 18,
+ "ml_hull_done": 899,
+ "ml_hull_at_or_below_0": 2,
+ "dft_jobs": 19,
  "dft_pass": 8,
  "dft_fail": 4,
  "by_prompt_mode": {
@@ -45,39 +45,39 @@
    "new": 696,
    "dft_pass": 0,
    "known_skipped": 0,
-   "hull_checked": 624,
-   "median_e_hull": 0.397,
+   "hull_checked": 625,
+   "median_e_hull": 0.395,
    "within_0_05": 1
   },
   "surprise": {
-   "structures": 77,
-   "new": 19,
+   "structures": 80,
+   "new": 22,
    "dft_pass": 1,
-   "known_skipped": 295,
-   "hull_checked": 16,
+   "known_skipped": 323,
+   "hull_checked": 18,
    "median_e_hull": 0.125,
-   "within_0_05": 2
+   "within_0_05": 3
   },
   "random": {
-   "structures": 125,
-   "new": 38,
+   "structures": 130,
+   "new": 41,
    "dft_pass": 0,
-   "known_skipped": 177,
-   "hull_checked": 29,
-   "median_e_hull": 0.289,
+   "known_skipped": 186,
+   "hull_checked": 32,
+   "median_e_hull": 0.293,
    "within_0_05": 2
   },
   "substitution": {
-   "structures": 426,
-   "new": 126,
+   "structures": 468,
+   "new": 139,
    "dft_pass": 0,
-   "known_skipped": 369,
-   "hull_checked": 119,
-   "median_e_hull": 0.211,
-   "within_0_05": 4
+   "known_skipped": 415,
+   "hull_checked": 131,
+   "median_e_hull": 0.199,
+   "within_0_05": 7
   },
   "control": {
-   "structures": 47,
+   "structures": 51,
    "new": 0,
    "dft_pass": 0,
    "known_skipped": 0,
