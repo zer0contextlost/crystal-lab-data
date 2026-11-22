@@ -1,0 +1,12 @@
+{
+ "lab_id": 6122,
+ "formula": "Tb3Mg3AgAu2",
+ "name": "Magnesoterbite",
+ "mace_e_hull": -0.001674707741039061,
+ "finished": 1795275977.179001,
+ "vs": {
+  "TbMgAu": 0.6667,
+  "TbMgAg": 0.3333
+ },
+ "status": "failed"
+}

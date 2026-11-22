@@ -17,4 +17,4 @@ lab_id,formula,dft_status,e_hull_dft_eV_atom,decomposes_to,pbe_gap_eV,metal,phon
 5426,Cs2Hg3O4,failed,,"{""Cs2HgO2"": 0.5556, ""HgO"": 0.4444}",,,,,2026-11-13T17:18:24Z,
 5919,Sc10Si6Se,fail,0.0257,"{""Sc2SiSe"": 0.2353, ""Sc5Si3"": 0.7059, ""ScSi"": 0.0588}",,,,,2026-11-16T12:05:19Z,
 6049,Li4Mg2CdHg,pass,0.0027,"{""Li3(MgCd)2"": 0.4375, ""Li2Mg2Hg"": 0.3125, ""Li3Hg"": 0.25}",,,,,2026-11-19T14:56:54Z,
-6122,Tb3Mg3AgAu2,queued,,,,,,,,
+6122,Tb3Mg3AgAu2,failed,,"{""TbMgAu"": 0.6667, ""TbMgAg"": 0.3333}",,,,,2026-11-21T15:46:17Z,
