@@ -7,7 +7,7 @@ AI generators now propose crystals much faster than anyone checks them with phys
 open record of what happens when you do check: most candidates that look stable to a machine-learned model turn
 out to be known compounds, or less stable than their real competitors, once the competitors are taken seriously.
 
-Built 2026-11-22. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
+Built 2026-11-23. Rebuilt nightly while the pipeline runs. Mirrors: [Hugging Face](https://huggingface.co/datasets/zer0contextlost/crystal-lab-data);
 raw Quantum ESPRESSO calculations parsed and searchable on [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=kNO0ljjeTyK0l_lX9522Ww) (snapshot of 2026-11-01), plus the #1856 SrCaCdP2 phonon runs ([upload of 2026-11-06](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=VJuk3Rs9RjKGtpU7TdSF3g))
 and all #2571 BaCdGePd2 runs ([upload of 2026-11-10](https://nomad-lab.eu/prod/v1/gui/search/entries?upload_id=7-krAnoRQlyS_2i0FVfjIw)).
 
@@ -44,9 +44,9 @@ METHODS.md §3 and §7, and in the `prior_reports` column of `dft_results.csv`.
 
 | | count |
 |---|---|
-| Structures generated | 6137 |
-| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 1000 |
-| ML hull check finished | 953 |
+| Structures generated | 6182 |
+| Kept as "discoveries" (stable by ML, and the composition is not reported in any database or paper we check) | 1021 |
+| ML hull check finished | 976 |
 | ML hull check at or below 0 eV/atom | 2 |
 | DFT jobs (passes / fails / still running or queued) | 19 (8 / 4 / 7) |
 
@@ -59,16 +59,16 @@ New rows need a few nights of hull checks before their numbers mean much.
 
 | prompt mode | skipped as already known | structures | new | ML hull checked | median e_hull (eV/atom) | within 0.05 | DFT passes |
 |---|---|---|---|---|---|---|---|
-| random formula (before 11-01) | 0 | 3713 | 696 | 661 | 0.395 | 1 | 0 |
+| random formula (before 11-01) | 0 | 3713 | 696 | 664 | 0.395 | 1 | 0 |
 | surprise (before 11-01) | 0 | 1681 | 101 | 97 | 0.109 | 18 | 7 |
-| substitution | 419 | 471 | 139 | 135 | 0.201 | 7 | 0 |
-| random | 186 | 130 | 41 | 38 | 0.289 | 2 | 0 |
-| surprise | 333 | 81 | 23 | 22 | 0.125 | 3 | 1 |
-| control | 0 | 51 | 0 | 0 | - | 0 | 0 |
+| substitution | 452 | 501 | 154 | 149 | 0.216 | 7 | 0 |
+| random | 200 | 140 | 45 | 42 | 0.281 | 2 | 0 |
+| surprise | 361 | 84 | 25 | 24 | 0.137 | 3 | 1 |
+| control | 0 | 53 | 0 | 0 | - | 0 | 0 |
 | human | 0 | 10 | 0 | 0 | - | 0 | 0 |
 
-ML verdicts: unstable 2202, rock solid 1591, plausible 1349, borderline 798, falls apart 197.
-Novelty at generation time: skipped 3197, new composition 1000, known 991, known composition 944, rediscovered 5.
+ML verdicts: unstable 2220, rock solid 1608, plausible 1354, borderline 801, falls apart 199.
+Novelty at generation time: skipped 3220, new composition 1021, known 992, known composition 944, rediscovered 5.
 
 ### Files
 - `structures.jsonl.gz`: one JSON object per structure: formula, space group, CIF, how the prompt was chosen
