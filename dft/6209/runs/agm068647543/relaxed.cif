@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ce2Zn2Si4
+_chemical_formula_sum              "Ce2 Zn2 Si4"
+_cell_length_a       9.23168431956675
+_cell_length_b       9.231682797686723
+_cell_length_c       4.047325494
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    154.33578638385234
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ce  Ce1       1.0  0.901678905429425  0.0983216245373978  0.750000000074123  1.0000
+  Ce  Ce2       1.0  0.0983210945597326  0.901678375462591  0.2500000000247077  1.0000
+  Zn  Zn1       1.0  0.24990495699981968  0.7500920649524151  0.750000000074123  1.0000
+  Zn  Zn2       1.0  0.7500950429551023  0.2499079349975625  0.2500000000247077  1.0000
+  Si  Si1       1.0  0.6654979958674729  0.3345001340237958  0.750000000074123  1.0000
+  Si  Si2       1.0  0.33450200413252695  0.6654998659762041  0.2500000000247077  1.0000
+  Si  Si3       1.0  0.5331804468277916  0.46681937775725435  0.750000000074123  1.0000
+  Si  Si4       1.0  0.46681955317220825  0.5331806222427455  0.2500000000247077  1.0000

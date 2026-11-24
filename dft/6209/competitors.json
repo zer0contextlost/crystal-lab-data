@@ -1,0 +1,30 @@
+{
+ "formula": "LaCe(Zn2Si)3",
+ "nsites": 11,
+ "decomposition": [
+  {
+   "id": "agm068647543",
+   "formula": "CeZnSi2",
+   "frac": 0.1212,
+   "nsites": 8
+  },
+  {
+   "id": "agm003231454",
+   "formula": "LaZn11",
+   "frac": 0.3636,
+   "nsites": 24
+  },
+  {
+   "id": "agm002186937",
+   "formula": "La2(Zn2Si)3",
+   "frac": 0.3333,
+   "nsites": 11
+  },
+  {
+   "id": "agm003201886",
+   "formula": "CeSi2",
+   "frac": 0.1818,
+   "nsites": 6
+  }
+ ]
+}
