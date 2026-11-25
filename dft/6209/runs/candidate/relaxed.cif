@@ -1,0 +1,36 @@
+data_image0
+_chemical_formula_structural       LaCeZn6Si3
+_chemical_formula_sum              "La1 Ce1 Zn6 Si3"
+_cell_length_a       7.576426219
+_cell_length_b       7.576426219137561
+_cell_length_c       4.088007477
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999503326
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.3333333299436332  0.666666669953578  0.0  1.0000
+  Ce  Ce1       1.0  0.0  0.0  0.0  1.0000
+  Zn  Zn1       1.0  0.3760895276968713  0.33837580905586345  0.4999999999510764  1.0000
+  Zn  Zn2       1.0  0.9622862912923532  0.6239104722267244  0.4999999999510764  1.0000
+  Zn  Zn3       1.0  0.6616241909016056  0.03771370864330823  0.4999999999510764  1.0000
+  Zn  Zn4       1.0  0.4709421143617146  0.14576211340104717  0.0  1.0000
+  Zn  Zn5       1.0  0.674819998983284  0.5290578855875311  0.0  1.0000
+  Zn  Zn6       1.0  0.8542378865585256  0.325180000950459  0.0  1.0000
+  Si  Si1       1.0  0.040010920071960256  0.32421137080741597  0.4999999999510764  1.0000
+  Si  Si2       1.0  0.28420046062195076  0.9599890798297812  0.4999999999510764  1.0000
+  Si  Si3       1.0  0.6757886291212631  0.7157995392429769  0.4999999999510764  1.0000

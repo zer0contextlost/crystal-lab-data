@@ -18,4 +18,4 @@ lab_id,formula,dft_status,e_hull_dft_eV_atom,decomposes_to,pbe_gap_eV,metal,phon
 5919,Sc10Si6Se,fail,0.0257,"{""Sc2SiSe"": 0.2353, ""Sc5Si3"": 0.7059, ""ScSi"": 0.0588}",,,,,2026-11-16T12:05:19Z,
 6049,Li4Mg2CdHg,pass,0.0027,"{""Li3(MgCd)2"": 0.4375, ""Li2Mg2Hg"": 0.3125, ""Li3Hg"": 0.25}",,,,,2026-11-19T14:56:54Z,
 6122,Tb3Mg3AgAu2,failed,,"{""TbMgAu"": 0.6667, ""TbMgAg"": 0.3333}",,,,,2026-11-21T15:46:17Z,
-6209,LaCe(Zn2Si)3,queued,,,,,,,,
+6209,LaCe(Zn2Si)3,pass,-0.4519,"{""CeZnSi2"": 0.1212, ""LaZn11"": 0.3636, ""La2(Zn2Si)3"": 0.3333, ""CeSi2"": 0.1818}",0.0,True,,,2026-11-24T23:21:04Z,

@@ -1,0 +1,15 @@
+{
+ "lab_id": 6209,
+ "formula": "LaCe(Zn2Si)3",
+ "name": "Silicozincite",
+ "mace_e_hull": 0.014760916918523215,
+ "finished": 1795562464.7022808,
+ "vs": {
+  "CeZnSi2": 0.1212,
+  "LaZn11": 0.3636,
+  "La2(Zn2Si)3": 0.3333,
+  "CeSi2": 0.1818
+ },
+ "e_hull_dft": -0.4519,
+ "status": "pass"
+}

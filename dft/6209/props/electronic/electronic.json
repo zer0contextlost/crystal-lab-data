@@ -1,0 +1,10 @@
+{
+ "natoms": 11,
+ "magnetic": null,
+ "magnetism_note": "not tested (no Fe/Co/Ni/Mn/Cr; treated as non-magnetic)",
+ "fermi_eV": 12.44647335618993,
+ "metal": true,
+ "pbe_gap_eV": 0.0,
+ "dos_at_EF_states_eV_atom": 0.872,
+ "hours": 0.73
+}
